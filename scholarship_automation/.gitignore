@@ -1,0 +1,10 @@
+.env
+credentials.json
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.venv/

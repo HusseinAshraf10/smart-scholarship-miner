@@ -1,0 +1,454 @@
+
+### File: .\config.py
+```python
+import os 
+from pathlib import Path
+from dotenv import load_dotenv
+
+BASE_DIR = Path(__file__).resolve().parent
+ENV_PATH = BASE_DIR / ".env"
+
+if ENV_PATH.exists():
+    load_dotenv(dotenv_path=ENV_PATH)
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+GOOGLE_SHEET_ID = os.getenv("GOOGLE_SHEET_ID")
+_raw_creds_path = os.getenv("GOOGLE_CREDS_PATH")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "Qwen3:8B")
+OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
+
+REQUIRED_VARS = {
+    "TELEGRAM_BOT_TOKEN": TELEGRAM_BOT_TOKEN,
+    "TELEGRAM_CHAT_ID": TELEGRAM_CHAT_ID,
+    "GOOGLE_SHEET_ID": GOOGLE_SHEET_ID,
+    "GOOGLE_CREDS_PATH": _raw_creds_path,
+}
+
+missing = [key for key, val in REQUIRED_VARS.items() if not val]
+
+if missing:
+    raise ValueError(f"Runtime Panic: Missing required environment variables: {", ".join(missing)}")
+
+
+# Resolve and validate Google credentials path layout
+GOOGLE_CREDS_PATH = Path(_raw_creds_path)
+if not GOOGLE_CREDS_PATH.is_absolute():
+    GOOGLE_CREDS_PATH = BASE_DIR / GOOGLE_CREDS_PATH
+
+if not GOOGLE_CREDS_PATH.exists():
+    raise FileNotFoundError(f"Runtime Panic: Credentials file unresolvable at {GOOGLE_CREDS_PATH}")
+
+
+    
+```
+
+### File: .\main.py
+```python
+import sys
+from services.sheets import SheetsService
+from services.extractor import ExtractorService
+from services.gemini import GeminiService
+from services.telegram import TelegramNotifierService
+
+class ScholarshipPipelineOrchestrator:
+    def __init__(self):
+        print("Booting Intelligent Scholarship Automation Pipeline Engine...")
+
+        try:
+            self.sheets = SheetsService()
+            print("[CONNECTED] Google Cloud Ledger Service Account Verified.")
+            self.extractor = ExtractorService()
+            print("[INITIALIZED] Web Text Extraction Gateway (Jina AI + BS4 Fallback).")
+            self.gemini = GeminiService()
+            print("[BONDED] Gemini 2.0 Flash Core Cognitive Inference Engine.")
+
+            self.telegram = TelegramNotifierService()
+            print("[READY] Telegram Outbound Notification Gateway Connection Stable.")
+        except Exception as ec:
+            print(f"\nCritical Core Initialization Failure! Halting Pipeline System.")
+            print(f"Details: {str(ec)}")
+            sys.exit(1)
+
+        print("\nAll subsystems online. Control Loop structure standing by for execution.")
+
+    
+    def run_pipeline(self)-> None:
+
+        print("Starting pipeline execution pass... Found (1) unprocessed scholarship entry.")
+
+        shcolar_url = self.sheets.get_pending_scholarships()[:3]
+        total_targets = len(shcolar_url)
+        print(f"Found {total_targets} unprocessed scholarship entries waiting in line.\n")
+
+        if total_targets == 0:
+            print("🛑 No work found. Pipeline shutting down cleanly.")
+            return None
+        
+        for target in shcolar_url:
+            row_index = target["__row_index"]
+            url = target["__target_link"]
+
+            print(f"\n[Processing Row {row_index}] Target Link: {url}")
+
+
+            try:
+                print(f"Step 1/4: Launching text scraper...")
+
+                raw_web_text = self.extractor.extract_markdown(url)
+                if not raw_web_text or len(raw_web_text.strip()) < 100:
+                    print("Scraped text payload is empty or dangerously insufficient.")
+                    continue
+
+                print(f"Step 2/4: Invoking Gemini 2.0 Flash AI Analysis...")
+                ai_json_response = self.gemini.analyze_scholarship_text(raw_web_text)
+
+                print(f"Step 3/4: Flattening data dictionary into row layout...")
+                sanitized = self.gemini.sanitize_extracted_data(ai_json_response)
+                row_matrix = self.sheets.prepare_row_matrix(sanitized)
+
+                print(f"Step 4/4: Committing row to Google Sheet and sending alert...")
+                self.sheets.update_scholarship_row(row_index, row_matrix)
+
+                alert_message = (
+                    f"🚨 *Scholarship Match Evaluated!*\n\n"
+                    f"🏢 *University:* {ai_json_response.get('university', 'Unknown')}\n"
+                    f"🎓 *Program:* {ai_json_response.get('scholarship_name', 'N/A')}\n"
+                    f"💰 *Funding:* {ai_json_response.get('funding_type', 'N/A')}\n"
+                    f"🎯 *Priority:* {ai_json_response.get('priority', 'P3')}\n"
+                    f"📝 *Notes:* {ai_json_response.get('notes', 'None')}"
+                )
+                self.telegram.send_notification(alert_message)
+
+
+            except Exception as row_error:
+                print(f"[ROW REJECTION] Error processing row {row_index}: {str(row_error)}")
+                continue
+
+if __name__ == "__main__":
+    try:
+        orchestrator = ScholarshipPipelineOrchestrator()
+        orchestrator.run_pipeline()
+        
+    except KeyboardInterrupt:
+        print("\nPipeline execution paused manually by user. Shutting down system engines safely.")
+        sys.exit(0)
+```
+
+### File: .\marge.py
+```python
+import os
+
+# Define output file name
+output_filename = "combined_code.txt"
+
+with open(output_filename, "w", encoding="utf-8") as output_file:
+    for root, dirs, files in os.walk("."):
+        # Strict exclusion of virtual environments and git folders
+        if any(venv_dir in root for venv_dir in ["venv", ".venv", "env", ".git"]):
+            continue
+            
+        for file in files:
+            if file.endswith(".py") and file != output_filename:
+                file_path = os.path.join(root, file)
+                
+                # Write file header markdown boundary
+                output_file.write(f"\n### File: {file_path}\n```python\n")
+                
+                # Ingest file content into buffer
+                with open(file_path, "r", encoding="utf-8") as f:
+                    output_file.write(f.read())
+                    
+                output_file.write("\n```\n")
+
+print(f"✅ Success! Copy the contents of '{output_filename}' and paste it here.")
+```
+
+### File: .\services\extractor.py
+```python
+import requests
+from bs4 import BeautifulSoup
+
+class ExtractorService:
+    def __init__(self):
+        self.headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+        # Enforce a strict 15-second timeout so a dead link can't freeze our machine
+        self.timeout = 15
+
+    def extract_with_jina(self, url: str) -> str:
+        jina_url = f"https://r.jina.ai/{url}"
+
+        response = requests.get(jina_url, headers= self.headers, timeout= self.timeout)
+
+        response.raise_for_status()
+
+        return response.text
+    
+    def extract_with_fallback(self, url: str) -> str:
+        response = requests.get(url, headers= self.headers, timeout= self.timeout)
+
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        for element in soup(["script", "style", "nav", "footer", "header"]):
+            element.extract()
+
+        raw_text = soup.get_text(separator='\n')
+        clean_lines = [line.strip() for line in raw_text.splitlines() if line.strip()]
+
+        return "\n".join(clean_lines)
+    
+    def extract_markdown(self, url: str) -> str:
+        try:
+            return self.extract_with_jina(url)
+
+        except Exception as e:
+            return self.extract_with_fallback(url)
+
+    
+
+```
+
+### File: .\services\gemini.py
+```python
+import json
+import requests
+from pydantic import BaseModel, Field
+from config import OLLAMA_MODEL, OLLAMA_URL
+
+
+class ScholarshipSchema(BaseModel):
+    university: str = Field(description="Name of the university awarding the scholarship.")
+    scholarship_name: str = Field(description="Full name of the scholarship including financial specifics.")
+    funding_type: str = Field(description="Must evaluate to one of these symbols exactly: '✅ Fully Funded', '⚠️ Partial/Uncertain', or '❌ No Funding'")
+    opening_date: str = Field(description="Opening window date or estimated cycle timeline.")
+    closing_date: str = Field(description="The formal submission deadline.")
+    requirements: str = Field(description="Core applicant eligibility criteria, restrictions, and nationality metrics.")
+    university_requirements_grade: str = Field(description="Specific academic boundaries or minimum grade requirements converted to UK equivalents.")
+    official_portal: str = Field(description="Name or URL reference of the master university landing page.")
+    application_link: str = Field(description="Direct web link to the online submission platform.")
+    accepts_conditional_offer: str = Field(description="Evaluates to '✅ Yes', '❌ No', or '⚠️ Uncertain' regarding conditional offer statuses.")
+    admissions_email: str = Field(description="The primary inbox address for admissions inquiries.")
+    competition_level: str = Field(description="Ranking evaluation string tracking global selection rates.")
+    priority: str = Field(description="Heuristic logic assignment: 'P1' (Must be fully funded (✅) or there is a tip way to be fully funded maybe combining two scholarships or something, no app fee, 66% grade OK, low/med competition), 'P2' (Medium/high competition, tight fit), or 'P3' (Partial funding, expensive fees, or 1st class required).")
+    status: str = Field(default="🔲 Not Started", description="Pipeline status placeholder.")
+    application_fees: str = Field(description="Financial application overhead tracking fee cost.")
+    notes: str = Field(description="Critical evaluation notes tracking eligibility for a Commerce graduate with 66% and specific Python portfolio tips.")
+
+
+class GeminiService:
+    def __init__(self):
+        self.model_name = OLLAMA_MODEL
+        self.ollama_url = OLLAMA_URL.rstrip("/") + "/api/chat"
+        self.extraction_schema = ScholarshipSchema
+        
+
+    def analyze_scholarship_text(self, webpage_content: str) -> dict:
+        webpage_content = webpage_content[:4000]
+        system_prompt = """You are an expert academic automation system evaluating university scholarship web pages.
+Your sole task is to extract structural metrics about this scholarship for the following candidate:
+
+[CANDIDATE SPECIFICATION PROFILE]
+- Name: Hussein Ashraf Hussein
+- Background: Bachelor of Commerce (Accounting, Egypt), Final Grade: 66% (Good)
+- Target: MSc Computer Science Conversion programs ONLY (Programs that explicitly accept non-CS/any discipline backgrounds).
+- Programming Skills: Intermediate Python (OOP, Automation via Selenium, APIs, Pandas, Tkinter, Data Structures).
+- Language Proficiency: English B2 (Targeting IELTS Band 7.0).
+- Financial Priority: Critical. Requires Fully Funded or heavy tuition discounts.
+
+[CRITICAL EVALUATION LOGIC RULES]
+1. CONVERSION FILTER: If the webpage indicates this is a standard Advanced MSc CS that requires a STEM or CS bachelor's degree, immediately abort extraction or set notes to "INELIGIBLE: Requires CS background". If it accepts any discipline (BCom), mark it as highly compatible.
+2. GRADE EVALUATION: If the university requires a UK 2:1 honours degree, evaluate 66% from Egypt as 'Borderline 2:1' and flag it. If they accept a 2:2, mark as 'Comfortable Pass'.
+3. PRIORITY RULE:
+   (P1) High Priority: Good/medium university, fully funded (✅) or stackable to full, no application fee, 66% grade is accepted, and competition level is low/medium.
+   (P2) Medium Priority: Good/medium university, fully funded or partial funding (⚠️), medium/high competition, or requirements are a slightly tight fit.
+   (P3) Low Priority: Partial funding, high competition (e.g., Russell Group), expensive application fees, or requires a 1st class degree.
+
+Respond with ONLY valid JSON matching this schema:
+{
+  "university": "",
+  "scholarship_name": "",
+  "funding_type": "Choose ONLY ONE: ✅ Fully Funded  or  ⚠️ Partial/Uncertain  or  ❌ No Funding",
+  "opening_date": "",
+  "closing_date": "",
+  "requirements": "",
+  "university_requirements_grade": "",
+  "official_portal": "",
+  "application_link": "",
+  "accepts_conditional_offer": "✅ Yes | ❌ No | ⚠️ Uncertain",
+  "admissions_email": "",
+  "competition_level": "",
+  "priority": "P1 | P2 | P3",
+  "status": "🔲 Not Started",
+  "application_fees": "",   
+  "notes": ""
+}"""
+
+        user_message = f"Analyze this scholarship webpage content:\n\n{webpage_content}"
+
+        payload = {
+            "model": self.model_name,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_message},
+            ],
+            "stream": False,
+            "options": {"temperature": 0.1},
+        }
+
+        response = requests.post(self.ollama_url, json=payload, timeout=120)
+        response.raise_for_status()
+
+        raw = response.json()
+        content = raw["message"]["content"]
+
+        cleaned = content.strip()
+        if cleaned.startswith("```"):
+            cleaned = cleaned.split("\n", 1)[-1]
+            cleaned = cleaned.rsplit("```", 1)[0]
+
+        return json.loads(cleaned.strip())
+    
+    def sanitize_extracted_data(self, data: dict) -> dict:
+        sanitized = {}
+
+        fields = [
+            "university", "scholarship_name", "funding_type", "opening_date", 
+            "closing_date", "requirements", "university_requirements_grade", 
+            "official_portal", "application_link", "accepts_conditional_offer", 
+            "admissions_email", "competition_level", "priority", "status", 
+            "application_fees", "notes"
+        ]
+                
+        for field in fields:
+            val = data.get(field, "")
+
+            if isinstance(val, str):
+                val = val.strip()
+
+            if field == "status":
+                val = "🔲 Not Started"
+                
+            sanitized[field] = val
+
+        return sanitized
+        
+```
+
+### File: .\services\sheets.py
+```python
+import gspread
+from config import GOOGLE_CREDS_PATH, GOOGLE_SHEET_ID
+from typing import List, Dict, Any
+
+# Define strict OAuth authorization boundaries
+SCOPES = [
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive"
+]
+
+class SheetsService:
+    def __init__(self):
+        try:
+            # Authenticate using the absolute path validated by config.py
+            self.client = gspread.service_account(filename=str(GOOGLE_CREDS_PATH))
+            self.spreadsheet = self.client.open_by_key(GOOGLE_SHEET_ID)
+            self.sheet = self.spreadsheet.get_worksheet(0)
+
+        except gspread.exceptions.SpreadsheetNotFound:
+            raise RuntimeError(f"Sheets Core Failure: Spreadsheet ID '{GOOGLE_SHEET_ID}' not found or inaccessible.")
+        
+        except Exception as e:
+            raise RuntimeError(f"Sheets Core Failure: Authentication failed. Internals: {str(e)}")
+
+    def get_worksheet(self):
+        return self.sheet
+
+
+    def get_pending_scholarships(self):
+        try:
+            all_records = self.sheet.get_all_records()
+        except Exception as e:
+            raise RuntimeError(f"Sheets Pipeline Failure: Unable to fetch rows. Internals: {str(e)}")
+        
+        pending_queue = []
+        
+        for index, record in enumerate(all_records, start= 2):
+            status = str(record.get("Status", "")).strip()
+            url = (record.get("Official Portal", "").strip() or record.get("Application Link", "")).strip()
+
+            if status == "🔲 Not Started" and url:
+                record["__row_index"] = index
+                record["__target_link"] = url
+                pending_queue.append(record)
+
+        return pending_queue
+    
+    def prepare_row_matrix(self, sanitized_data: dict) -> list:
+        """
+        Converts the data dictionary into a flat, index-ordered list 
+        matching the exact 16-column sequence layout of the Google Sheet.
+        """
+        column_sequence = [
+            "university", "scholarship_name", "funding_type", "opening_date", 
+            "closing_date", "requirements", "university_requirements_grade", 
+            "official_portal", "application_link", "accepts_conditional_offer", 
+            "admissions_email", "competition_level", "priority", "status", 
+            "application_fees", "notes"
+        ]
+        return [sanitized_data.get(column, "") for column in column_sequence]
+    
+    
+    def update_scholarship_row(self, row_index: int, row_matrix: list):
+        """
+        Overwrites a specific horizontal row block (Columns A to P) 
+        in a single, high-efficiency network request.
+        """
+        try:
+            range_name = f"A{row_index}:P{row_index}"
+
+            self.sheet.update(range_name, [row_matrix])
+            
+        except Exception as e:
+            raise RuntimeError(
+                f"Sheets Pipeline Failure: In-place mutation failed on row {row_index}. "
+                f"Internals: {str(e)}"
+            )
+
+```
+
+### File: .\services\telegram.py
+```python
+import requests
+from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+
+class TelegramNotifierService:
+    def __init__(self):
+        self.bot_token = str(TELEGRAM_BOT_TOKEN).strip()
+        self.chat_id = str(TELEGRAM_CHAT_ID).strip()
+        self.base_url = f"https://api.telegram.org/bot{self.bot_token}/sendMessage"
+
+    
+    def send_notification(self, message: str) -> bool:
+
+        payload = {
+            "chat_id": self.chat_id,
+            "text": message,
+            "parse_mode": "Markdown" 
+        }
+
+        try:
+            response = requests.post(self.base_url, json=payload, timeout=10)
+
+            response.raise_for_status()
+
+            return True
+        except Exception as ec:
+            print(f"⚠️ Telegram Gateway Network Drop Alert: {str(ec)}")
+            return False
+        
+        
+```
