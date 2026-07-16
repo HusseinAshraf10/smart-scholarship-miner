@@ -1,20 +1,21 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/home/Home.jsx"
-import Offers from "./pages/offers/Offers.jsx"
-import Trips from "./pages/trips/Trips.jsx"
-import Contact from "./pages/contact/Contact.jsx"
-import Layout from "./components/layout/Layout.jsx"
-
+import Home from "./pages/public/home/Home";
+import About from "./pages/public/about/About";
+import Features from "./pages/public/features/Features";
+import Layout from "./components/layout/Layout";
+import HowItWorks from "./pages/public/howItWorks/HowItWorks";
 function App() {
   return (
-  <Routes> 
-    <Route path="/" element={<Layout />}>
-    <Route index  element={<Home />} />
-    <Route path="trips" element={<Trips />} />
-    <Route path="offers" element={<Offers />} />
-    <Route path="contact" element={<Contact />} />
-    </Route>
-  </Routes>
+    <div >
+    <Routes>
+      <Route path="/" element={<Layout />}>
+      <Route index element={<Home />} />
+      <Route path="features" element={<Features />} />
+      <Route path="about" element={<About />} />
+      <Route path="howItWorks" element={<HowItWorks />} />
+      </Route>
+    </Routes>
+    </div>
   );
 }
 
