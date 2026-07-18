@@ -4,6 +4,7 @@ import About from "./pages/public/about/About";
 import Features from "./pages/public/features/Features";
 import Layout from "./components/layout/Layout";
 import HowItWorks from "./pages/public/howItWorks/HowItWorks";
+import Search from "./pages/public/search/Search";
 function App() {
   return (
     <div >
@@ -13,6 +14,7 @@ function App() {
       <Route path="features" element={<Features />} />
       <Route path="about" element={<About />} />
       <Route path="howItWorks" element={<HowItWorks />} />
+      <Route path="search" element={<Search />} />
       </Route>
     </Routes>
     </div>

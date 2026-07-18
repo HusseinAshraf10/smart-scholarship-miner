@@ -18,6 +18,8 @@ function Navbar() {
           to="/about">About</Link>
           <Link  className="text-gray-600 transition-colors duration-200 hover:text-blue-600" 
           to="/howItWorks">How It Works</Link>
+          <Link  className="text-gray-600 transition-colors duration-200 hover:text-blue-600" 
+          to="/search">Search</Link>          
         </div>
         <Link className="rounded-lg bg-blue-600 px-5 py-2 font-medium text-white transition-all duration-200 hover:bg-blue-700 hover:shadow-md"
           to="/login"> Get Started</Link>{/* for later */}
