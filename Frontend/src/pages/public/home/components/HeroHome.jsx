@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import image from "../../../../assets/images/hero.png"
 import "./home.css";
 import { GraduationCap, Brain,Globe } from "lucide-react";
@@ -38,13 +39,13 @@ function HeroHome() {
             >AI-powered search and analysis to help you discover scholership opportunities that match your profile and goals.</p>
             <div className="mt-8 flex gap-4">
 
-                <button className=" cursor-pointer rounded-lg bg-blue-600 px-6 py-3 font-medium
+                <Link to="/search" className="cursor-pointer rounded-lg bg-blue-600 px-6 py-3 font-medium
                  text-white transition-all duration-200 hover:bg-blue-700">
-                    Start Searching</button>
+                    Start Searching</Link>
 
-                <button className=" cursor-pointer rounded-lg border border-gray-300 px-6 py-3 font-medium
+                <Link to="/howItWorks" className="cursor-pointer rounded-lg border border-gray-300 px-6 py-3 font-medium
                  text-gray-700 transition-all duration-200 hover:border-blue-600 hover:text-blue-600">
-                    Learn More</button>
+                    Learn More</Link>
             </div>
             </div>
         <div className="max-w-lg"> 

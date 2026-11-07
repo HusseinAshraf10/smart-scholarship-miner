@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Rocket } from "lucide-react";
 
 function CTA() {
@@ -33,9 +34,9 @@ function CTA() {
           </div>
 
           {/* Button */}
-          <button className="rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition-colors duration-300 hover:bg-blue-700">
+          <Link to="/search" className="rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition-colors duration-300 hover:bg-blue-700">
             Start Your Journey →
-          </button>
+          </Link>
 
         </div>
       </div>

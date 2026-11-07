@@ -30,7 +30,7 @@ class GeminiService:
         self.ollama_url = OLLAMA_URL.rstrip("/") + "/api/chat"
         self.extraction_schema = ScholarshipSchema
         self.use_cloud = HAS_GEMINI_ACCESS
-        self.gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+        self.gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
         self.headers = {"Content-Type": "application/json"}
 
 
@@ -76,38 +76,49 @@ Respond with ONLY valid JSON matching this schema:
 }"""
 
         user_message = f"Analyze this scholarship webpage content:\n\n{webpage_content}"
-        if self.use_cloud:
-            payload = {
-                "contents": [{"parts": [{"text": f"{system_prompt}\n\n{user_message}"}]}]
-            }
+        try:
+            if self.use_cloud:
+                payload = {
+                    "contents": [{"parts": [{"text": f"{system_prompt}\n\n{user_message}"}]}]
+                }
 
-            response = requests.post(self.gemini_url, json=payload, headers=self.headers, timeout= 120)
-            response.raise_for_status()
-            content = response.json()["candidates"][0]["content"]["parts"][0]["text"]
-        else:
-            
-            payload = {
-                "model": self.model_name,
-                "messages": [
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_message},
-                ],
-                "stream": False,
-                "options": {"temperature": 0.1},
-            }
+                response = requests.post(self.gemini_url, json=payload, headers=self.headers, timeout=120)
+                response.raise_for_status()
+                content = response.json()["candidates"][0]["content"]["parts"][0]["text"]
+            else:
+                payload = {
+                    "model": self.model_name,
+                    "messages": [
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": user_message},
+                    ],
+                    "stream": False,
+                    "options": {"temperature": 0.1},
+                }
 
-            response = requests.post(self.ollama_url, json=payload, timeout=120)
-            response.raise_for_status()
-
-        raw = response.json()
-        content = raw["message"]["content"]
+                response = requests.post(self.ollama_url, json=payload, timeout=120)
+                response.raise_for_status()
+                raw = response.json()
+                content = raw["message"]["content"]
+        except requests.exceptions.ConnectionError:
+            if not self.use_cloud:
+                raise RuntimeError("AI Engine Offline: Ollama is not running on localhost:11434, and no GEMINI_API_KEY is set in Backend/.env. Please add your GEMINI_API_KEY or start Ollama.")
+            raise RuntimeError("AI Connection Error: Unable to reach Gemini API. Please check your internet connection.")
+        except requests.exceptions.HTTPError as http_err:
+            raise RuntimeError(f"AI Provider Error: {http_err.response.status_code} - {http_err.response.text[:200]}")
 
         cleaned = content.strip()
-        if cleaned.startswith("```"):
-            cleaned = cleaned.split("\n", 1)[-1]
-            cleaned = cleaned.rsplit("```", 1)[0]
+        if "```json" in cleaned:
+            cleaned = cleaned.split("```json", 1)[1].split("```", 1)[0].strip()
+        elif "```" in cleaned:
+            cleaned = cleaned.split("```", 1)[1].split("```", 1)[0].strip()
 
-        return json.loads(cleaned.strip())
+        start_idx = cleaned.find("{")
+        end_idx = cleaned.rfind("}")
+        if start_idx != -1 and end_idx != -1:
+            cleaned = cleaned[start_idx:end_idx + 1]
+
+        return json.loads(cleaned)
     
     def sanitize_extracted_data(self, data: dict) -> dict:
         sanitized = {}

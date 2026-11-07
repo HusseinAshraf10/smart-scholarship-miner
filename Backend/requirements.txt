@@ -1,3 +1,5 @@
+flask
+flask-cors
 gspread
 google-auth
 requests
@@ -5,3 +7,4 @@ beautifulsoup4
 python-dotenv
 pydantic
 tenacity
+duckduckgo-search

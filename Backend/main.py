@@ -1,4 +1,5 @@
 import sys
+from config import validate_pipeline_config
 from services.sheets import SheetsService
 from services.extractor import ExtractorService
 from services.gemini import GeminiService
@@ -9,6 +10,7 @@ class ScholarshipPipelineOrchestrator:
         print("Booting Intelligent Scholarship Automation Pipeline Engine...")
 
         try:
+            validate_pipeline_config()
             self.sheets = SheetsService()
             print("[CONNECTED] Google Cloud Ledger Service Account Verified.")
             self.extractor = ExtractorService()

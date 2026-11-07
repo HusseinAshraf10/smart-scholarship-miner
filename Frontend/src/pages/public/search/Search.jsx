@@ -1,5 +1,6 @@
 import React from "react";
 import HeroSearch from "./components/HeroSearch";
+import AIAnalyze from "./components/AIAnalyze";
 import Sidebar from "./components/Sidebar";
 import SearchResults from "./components/SearchResults";
 import { useState } from "react";
@@ -103,7 +104,11 @@ function Search() {
         selectedSort={selectedSort}
       />
 
-      <div className="mx-auto mt-10 flex max-w-7xl gap-8 px-6">
+      <div className="mt-8">
+        <AIAnalyze />
+      </div>
+
+      <div className="mx-auto mt-4 flex max-w-7xl gap-8 px-6">
         <Sidebar
           handleFilter={HandleFilter}
           filters={filters}

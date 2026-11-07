@@ -22,7 +22,7 @@ function Navbar() {
           to="/search">Search</Link>          
         </div>
         <Link className="rounded-lg bg-blue-600 px-5 py-2 font-medium text-white transition-all duration-200 hover:bg-blue-700 hover:shadow-md"
-          to="/login"> Get Started</Link>{/* for later */}
+          to="/search"> Get Started</Link>
       </div>
     </nav>
   );
