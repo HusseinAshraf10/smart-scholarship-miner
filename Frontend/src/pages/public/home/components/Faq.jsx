@@ -41,7 +41,11 @@ const faqs = [
 function Faq() {
   const [openQuestion, setOpenQuestion] = useState(null);
   function toggleAccordion(id) {
-    openQuestion === id ? setOpenQuestion(null) : setOpenQuestion(id);
+    if (openQuestion === id) {
+      setOpenQuestion(null);
+    } else {
+      setOpenQuestion(id);
+    }
   }
   return (
     <section id="faq" className="bg-slate-50 py-6">

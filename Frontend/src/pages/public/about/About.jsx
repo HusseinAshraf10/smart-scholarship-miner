@@ -12,9 +12,6 @@ import {
   Bot,
   Brain,
   Target,
-  Sparkles,
-  Award,
-  Layers,
 } from "lucide-react";
 
 function About() {

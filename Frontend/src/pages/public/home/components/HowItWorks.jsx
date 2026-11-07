@@ -1,5 +1,5 @@
 import React from "react";
-import { UserRound, Sparkles, SearchCheck, ArrowRight } from "lucide-react";
+import { UserRound, Sparkles, SearchCheck } from "lucide-react";
 
 const howItWorks = [
   {
