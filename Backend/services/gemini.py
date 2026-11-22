@@ -1,7 +1,7 @@
 import json
 import requests
 from pydantic import BaseModel, Field
-from config import OLLAMA_MODEL, OLLAMA_URL, HAS_GEMINI_ACCESS, GEMINI_API_KEY
+from config import OLLAMA_MODEL, OLLAMA_URL, HAS_GEMINI_ACCESS, GEMINI_API_KEY, GEMINI_MODEL
 
 
 
@@ -30,12 +30,13 @@ class GeminiService:
         self.ollama_url = OLLAMA_URL.rstrip("/") + "/api/chat"
         self.extraction_schema = ScholarshipSchema
         self.use_cloud = HAS_GEMINI_ACCESS
-        self.gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+        self.gemini_model = GEMINI_MODEL
+        self.gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.gemini_model}:generateContent?key={GEMINI_API_KEY}"
         self.headers = {"Content-Type": "application/json"}
 
 
     def analyze_scholarship_text(self, webpage_content: str) -> dict:
-        webpage_content = webpage_content[:4000]
+        webpage_content = webpage_content[:5000]
         system_prompt = """You are an expert academic automation system evaluating university scholarship web pages.
 Your sole task is to extract structural metrics about this scholarship for the following candidate:
 
@@ -49,9 +50,9 @@ Your sole task is to extract structural metrics about this scholarship for the f
 
 [CRITICAL EVALUATION LOGIC RULES]
 1. CONVERSION FILTER: If the webpage indicates this is a standard Advanced MSc CS that requires a STEM or CS bachelor's degree, immediately abort extraction or set notes to "INELIGIBLE: Requires CS background". If it accepts any discipline (BCom), mark it as highly compatible.
-2. GRADE EVALUATION: If the university requires a UK 2:1 honours degree, evaluate 66% from Egypt as 'Borderline 2:1' and flag it. If they accept a 2:2, mark as 'Comfortable Pass'.
+2. GRADE EVALUATION: If the university requires a UK 2:1 honours degree, evaluate 66%/ from Egypt as 'Borderline 2:1' and flag it. If they accept a 2:2, mark as 'Comfortable Pass'.
 3. PRIORITY RULE:
-   (P1) High Priority: Good/medium university, fully funded (✅) or stackable to full, no application fee, 66% grade is accepted, and competition level is low/medium.
+   (P1) High Priority: Good/medium university, fully funded (✅) or stackable to full, no application fee, 66%/ grade is accepted, and competition level is low/medium.
    (P2) Medium Priority: Good/medium university, fully funded or partial funding (⚠️), medium/high competition, or requirements are a slightly tight fit.
    (P3) Low Priority: Partial funding, high competition (e.g., Russell Group), expensive application fees, or requires a 1st class degree.
 
@@ -98,9 +99,8 @@ Respond with ONLY valid JSON matching this schema:
 
             response = requests.post(self.ollama_url, json=payload, timeout=120)
             response.raise_for_status()
-
-        raw = response.json()
-        content = raw["message"]["content"]
+            raw = response.json()
+            content = raw["message"]["content"]
 
         cleaned = content.strip()
         if cleaned.startswith("```"):

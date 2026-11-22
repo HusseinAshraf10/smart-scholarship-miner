@@ -27,16 +27,26 @@ def analyze():
     links = search_engin.search_scholarships(query_text)
 
     if not links:
-        return jsonify({"error: NO links found"}), 404
+        return jsonify({"error": 'NO links found'}), 404
+
+    webpage_text = None
+    successful_url = None
     
-    first_link = links[0]
+    for candidate_url in links[:3]:
+        try:
+            response = requests.get(candidate_url, timeout= 10)
+            if response.status_code == 200 and len(response.text.strip()) > 200:
+                webpage_text = response.text
+                successful_url = candidate_url
+                break 
+        except requests.RequestException:
+            continue
+        
+    if not webpage_text:
+        return jsonify({"error": "All candidate websites were unreachable or blocked"}), 502
 
-    try:
-
-        webpage_text = requests.get(first_link, timeout= 10).text
-    except requests.RequestException:
-        return jsonify({"error: Failed to read the website"}), 500
+    
         
     result = scholarship_engine.analyze_scholarship_text(webpage_text)
-
+    result['source_url'] = successful_url
     return jsonify(result)

@@ -23,7 +23,7 @@ class TelegramNotifierService:
 
             return True
         except Exception as ec:
-            print(f"⚠️ Telegram Gateway Network Drop Alert: {str(ec)}")
+            print(f" Telegram Gateway Network Drop Alert: {str(ec)}")
             return False
         
         

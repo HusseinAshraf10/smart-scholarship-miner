@@ -14,7 +14,7 @@ class ScholarshipPipelineOrchestrator:
             self.extractor = ExtractorService()
             print("[INITIALIZED] Web Text Extraction Gateway (Jina AI + BS4 Fallback).")
             self.gemini = GeminiService()
-            print("[BONDED] Gemini 2.0 Flash Core Cognitive Inference Engine.")
+            print("[BONDED] Gemini Hydrogen Core Cognitive Inference Engine.")
 
             self.telegram = TelegramNotifierService()
             print("[READY] Telegram Outbound Notification Gateway Connection Stable.")
@@ -35,7 +35,7 @@ class ScholarshipPipelineOrchestrator:
         print(f"Found {total_targets} unprocessed scholarship entries waiting in line.\n")
 
         if total_targets == 0:
-            print("🛑 No work found. Pipeline shutting down cleanly.")
+            print(" No work found. Pipeline shutting down cleanly.")
             return None
         
         for target in shcolar_url:
@@ -46,30 +46,30 @@ class ScholarshipPipelineOrchestrator:
 
 
             try:
-                print(f"Step 1/4: Launching text scraper...")
+                print(f"Step 1: Launching text scraper...")
 
                 raw_web_text = self.extractor.extract_markdown(url)
                 if not raw_web_text or len(raw_web_text.strip()) < 100:
                     print("Scraped text payload is empty or dangerously insufficient.")
                     continue
 
-                print(f"Step 2/4: Invoking Gemini 2.0 Flash AI Analysis...")
+                print(f"Step 2: Invoking Gemini Hydrogen AI Analysis...")
                 ai_json_response = self.gemini.analyze_scholarship_text(raw_web_text)
 
-                print(f"Step 3/4: Flattening data dictionary into row layout...")
+                print(f"Step 3: Flattening data dictionary into row layout...")
                 sanitized = self.gemini.sanitize_extracted_data(ai_json_response)
                 row_matrix = self.sheets.prepare_row_matrix(sanitized)
 
-                print(f"Step 4/4: Committing row to Google Sheet and sending alert...")
+                print(f"Step 4: Committing row to Google Sheet and sending alert...")
                 self.sheets.update_scholarship_row(row_index, row_matrix)
 
                 alert_message = (
-                    f"🚨 *Scholarship Match Evaluated!*\n\n"
-                    f"🏢 *University:* {ai_json_response.get('university', 'Unknown')}\n"
-                    f"🎓 *Program:* {ai_json_response.get('scholarship_name', 'N/A')}\n"
-                    f"💰 *Funding:* {ai_json_response.get('funding_type', 'N/A')}\n"
-                    f"🎯 *Priority:* {ai_json_response.get('priority', 'P3')}\n"
-                    f"📝 *Notes:* {ai_json_response.get('notes', 'None')}"
+                    f" *Scholarship Match Evaluated!*\n\n"
+                    f" *University:* {ai_json_response.get('university', 'Unknown')}\n"
+                    f" *Program:* {ai_json_response.get('scholarship_name', 'N/A')}\n"
+                    f" *Funding:* {ai_json_response.get('funding_type', 'N/A')}\n"
+                    f" *Priority:* {ai_json_response.get('priority', 'P3')}\n"
+                    f" *Notes:* {ai_json_response.get('notes', 'None')}"
                 )
                 self.telegram.send_notification(alert_message)
 

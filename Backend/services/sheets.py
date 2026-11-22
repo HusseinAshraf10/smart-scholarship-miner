@@ -25,7 +25,7 @@ class SheetsService:
     def get_worksheet(self):
         return self.sheet
 
-
+    # Fetches all rows and looks for items with status 'Not Started'.
     def get_pending_scholarships(self):
         try:
             all_records = self.sheet.get_all_records()

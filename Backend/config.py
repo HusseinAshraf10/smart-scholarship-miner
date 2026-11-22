@@ -2,6 +2,7 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
+# Configuration & Environment Loader
 BASE_DIR = Path(__file__).resolve().parent
 ENV_PATH = BASE_DIR / ".env"
 
@@ -9,6 +10,7 @@ if ENV_PATH.exists():
     load_dotenv(dotenv_path=ENV_PATH)
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-4-hydrogen")
 HAS_GEMINI_ACCESS = bool(GEMINI_API_KEY and GEMINI_API_KEY.strip())
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
@@ -18,6 +20,7 @@ _raw_creds_path = os.getenv("GOOGLE_CREDS_PATH")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "Qwen3:8B")
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
 
+# Configuration Validator 
 REQUIRED_VARS = {
     "TELEGRAM_BOT_TOKEN": TELEGRAM_BOT_TOKEN,
     "TELEGRAM_CHAT_ID": TELEGRAM_CHAT_ID,
