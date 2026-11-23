@@ -1,9 +1,9 @@
 import TripsGrid from "../../components/shared/TripsGrid.jsx";
 import CTASection from "../../components/shared/CTASection.jsx";
-import Hero from "./components/Hero.jsx";
+import Hero from "./components/hero/Hero.jsx";
 import WhyUs from "./components/WhyUs.jsx";
 import OffersGrid from "../../components/shared/OffersGrid.jsx";
-import FeaturedTripCard from "./components/featuredTrips/FeaturedTripCard.jsx";
+import FeaturedTripCard from "../featuredTrips/FeaturedTripCard.jsx";
 
 function Home() {
   return (

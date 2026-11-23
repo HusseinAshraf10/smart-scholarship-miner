@@ -1,0 +1,4802 @@
+[
+  {
+    "id": 1,
+    "title": "University of Oslo International Master Scholarship 2028",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "Master",
+    "field": "Medicine",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-02-02",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/1.jpg",
+    "featured": true,
+    "tags": [
+      "Medicine",
+      "Master",
+      "Norway"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "KAIST International Bachelor Scholarship 2027",
+    "university": "KAIST",
+    "country": "South Korea",
+    "degree": "Bachelor",
+    "field": "Electrical Engineering",
+    "funding": "Fully Funded",
+    "deadline": "2027-03-03",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Electrical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.kaist.ac.kr/en",
+    "image": "/images/scholarships/2.jpg",
+    "featured": true,
+    "tags": [
+      "Electrical Engineering",
+      "Bachelor",
+      "South Korea"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Sorbonne University International PhD Scholarship 2028",
+    "university": "Sorbonne University",
+    "country": "France",
+    "degree": "PhD",
+    "field": "Physics",
+    "funding": "Fully Funded",
+    "deadline": "2027-04-04",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Physics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.sorbonne-universite.fr/en",
+    "image": "/images/scholarships/3.jpg",
+    "featured": true,
+    "tags": [
+      "Physics",
+      "PhD",
+      "France"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "RWTH Aachen University International Master Scholarship 2027",
+    "university": "RWTH Aachen University",
+    "country": "Germany",
+    "degree": "Master",
+    "field": "Public Health",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-05-05",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Public Health.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.rwth-aachen.de",
+    "image": "/images/scholarships/4.jpg",
+    "featured": true,
+    "tags": [
+      "Public Health",
+      "Master",
+      "Germany"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "University of Melbourne International Master Scholarship 2028",
+    "university": "University of Melbourne",
+    "country": "Australia",
+    "degree": "Master",
+    "field": "Mechanical Engineering",
+    "funding": "Partially Funded",
+    "deadline": "2027-06-06",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Mechanical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.unimelb.edu.au",
+    "image": "/images/scholarships/5.jpg",
+    "featured": true,
+    "tags": [
+      "Mechanical Engineering",
+      "Master",
+      "Australia"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Delft University of Technology International Bachelor Scholarship 2027",
+    "university": "Delft University of Technology",
+    "country": "Netherlands",
+    "degree": "Bachelor",
+    "field": "Economics",
+    "funding": "Fully Funded",
+    "deadline": "2027-07-07",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tudelft.nl/en",
+    "image": "/images/scholarships/6.jpg",
+    "featured": true,
+    "tags": [
+      "Economics",
+      "Bachelor",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "KAIST International Master Scholarship 2028",
+    "university": "KAIST",
+    "country": "South Korea",
+    "degree": "Master",
+    "field": "Architecture",
+    "funding": "Partially Funded",
+    "deadline": "2027-08-08",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Architecture.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.kaist.ac.kr/en",
+    "image": "/images/scholarships/7.jpg",
+    "featured": true,
+    "tags": [
+      "Architecture",
+      "Master",
+      "South Korea"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Technical University of Munich International PhD Scholarship 2027",
+    "university": "Technical University of Munich",
+    "country": "Germany",
+    "degree": "PhD",
+    "field": "Medicine",
+    "funding": "Fully Funded",
+    "deadline": "2027-09-09",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tum.de/en",
+    "image": "/images/scholarships/8.jpg",
+    "featured": true,
+    "tags": [
+      "Medicine",
+      "PhD",
+      "Germany"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Lund University International PhD Scholarship 2028",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "PhD",
+    "field": "Medicine",
+    "funding": "Partially Funded",
+    "deadline": "2027-10-10",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/9.jpg",
+    "featured": true,
+    "tags": [
+      "Medicine",
+      "PhD",
+      "Sweden"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "University of Oxford International PhD Scholarship 2027",
+    "university": "University of Oxford",
+    "country": "United Kingdom",
+    "degree": "PhD",
+    "field": "Law",
+    "funding": "Partially Funded",
+    "deadline": "2027-11-11",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Law.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.ox.ac.uk",
+    "image": "/images/scholarships/10.jpg",
+    "featured": true,
+    "tags": [
+      "Law",
+      "PhD",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "University of Tokyo International Bachelor Scholarship 2028",
+    "university": "University of Tokyo",
+    "country": "Japan",
+    "degree": "Bachelor",
+    "field": "Public Health",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-12-12",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Public Health.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.u-tokyo.ac.jp/en",
+    "image": "/images/scholarships/11.jpg",
+    "featured": true,
+    "tags": [
+      "Public Health",
+      "Bachelor",
+      "Japan"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "University of Oslo International Bachelor Scholarship 2027",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "Bachelor",
+    "field": "Mathematics",
+    "funding": "Fully Funded",
+    "deadline": "2027-01-13",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mathematics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/12.jpg",
+    "featured": true,
+    "tags": [
+      "Mathematics",
+      "Bachelor",
+      "Norway"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "University of Oslo International Master Scholarship 2028",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "Master",
+    "field": "Mechanical Engineering",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-02-14",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Mechanical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/13.jpg",
+    "featured": false,
+    "tags": [
+      "Mechanical Engineering",
+      "Master",
+      "Norway"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Technical University of Munich International Bachelor Scholarship 2027",
+    "university": "Technical University of Munich",
+    "country": "Germany",
+    "degree": "Bachelor",
+    "field": "Law",
+    "funding": "Partially Funded",
+    "deadline": "2027-03-15",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Law.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tum.de/en",
+    "image": "/images/scholarships/14.jpg",
+    "featured": false,
+    "tags": [
+      "Law",
+      "Bachelor",
+      "Germany"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Delft University of Technology International Bachelor Scholarship 2028",
+    "university": "Delft University of Technology",
+    "country": "Netherlands",
+    "degree": "Bachelor",
+    "field": "Public Health",
+    "funding": "Fully Funded",
+    "deadline": "2027-04-16",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Public Health.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tudelft.nl/en",
+    "image": "/images/scholarships/15.jpg",
+    "featured": false,
+    "tags": [
+      "Public Health",
+      "Bachelor",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "KAIST International Bachelor Scholarship 2027",
+    "university": "KAIST",
+    "country": "South Korea",
+    "degree": "Bachelor",
+    "field": "Mathematics",
+    "funding": "Partially Funded",
+    "deadline": "2027-05-17",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mathematics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.kaist.ac.kr/en",
+    "image": "/images/scholarships/16.jpg",
+    "featured": false,
+    "tags": [
+      "Mathematics",
+      "Bachelor",
+      "South Korea"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "University of Oslo International PhD Scholarship 2028",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "PhD",
+    "field": "Economics",
+    "funding": "Fully Funded",
+    "deadline": "2027-06-18",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/17.jpg",
+    "featured": false,
+    "tags": [
+      "Economics",
+      "PhD",
+      "Norway"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "University of Toronto International Bachelor Scholarship 2027",
+    "university": "University of Toronto",
+    "country": "Canada",
+    "degree": "Bachelor",
+    "field": "Physics",
+    "funding": "Partially Funded",
+    "deadline": "2027-07-19",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Physics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.utoronto.ca",
+    "image": "/images/scholarships/18.jpg",
+    "featured": false,
+    "tags": [
+      "Physics",
+      "Bachelor",
+      "Canada"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Sorbonne University International Master Scholarship 2028",
+    "university": "Sorbonne University",
+    "country": "France",
+    "degree": "Master",
+    "field": "Computer Science",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-08-20",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Computer Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.sorbonne-universite.fr/en",
+    "image": "/images/scholarships/19.jpg",
+    "featured": false,
+    "tags": [
+      "Computer Science",
+      "Master",
+      "France"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "University of Tokyo International Master Scholarship 2027",
+    "university": "University of Tokyo",
+    "country": "Japan",
+    "degree": "Master",
+    "field": "Computer Science",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-09-21",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Computer Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.u-tokyo.ac.jp/en",
+    "image": "/images/scholarships/20.jpg",
+    "featured": false,
+    "tags": [
+      "Computer Science",
+      "Master",
+      "Japan"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Aalto University International Bachelor Scholarship 2028",
+    "university": "Aalto University",
+    "country": "Finland",
+    "degree": "Bachelor",
+    "field": "Civil Engineering",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-10-22",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Civil Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.aalto.fi/en",
+    "image": "/images/scholarships/21.jpg",
+    "featured": false,
+    "tags": [
+      "Civil Engineering",
+      "Bachelor",
+      "Finland"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Technical University of Munich International PhD Scholarship 2027",
+    "university": "Technical University of Munich",
+    "country": "Germany",
+    "degree": "PhD",
+    "field": "Artificial Intelligence",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-11-23",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Artificial Intelligence.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tum.de/en",
+    "image": "/images/scholarships/22.jpg",
+    "featured": false,
+    "tags": [
+      "Artificial Intelligence",
+      "PhD",
+      "Germany"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Aalto University International Master Scholarship 2028",
+    "university": "Aalto University",
+    "country": "Finland",
+    "degree": "Master",
+    "field": "Civil Engineering",
+    "funding": "Fully Funded",
+    "deadline": "2027-12-24",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Civil Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.aalto.fi/en",
+    "image": "/images/scholarships/23.jpg",
+    "featured": false,
+    "tags": [
+      "Civil Engineering",
+      "Master",
+      "Finland"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "King Saud University International Bachelor Scholarship 2027",
+    "university": "King Saud University",
+    "country": "Saudi Arabia",
+    "degree": "Bachelor",
+    "field": "Computer Science",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-01-25",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Computer Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://ksu.edu.sa",
+    "image": "/images/scholarships/24.jpg",
+    "featured": false,
+    "tags": [
+      "Computer Science",
+      "Bachelor",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Technical University of Munich International Bachelor Scholarship 2028",
+    "university": "Technical University of Munich",
+    "country": "Germany",
+    "degree": "Bachelor",
+    "field": "Mechanical Engineering",
+    "funding": "Partially Funded",
+    "deadline": "2027-02-26",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mechanical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tum.de/en",
+    "image": "/images/scholarships/25.jpg",
+    "featured": false,
+    "tags": [
+      "Mechanical Engineering",
+      "Bachelor",
+      "Germany"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "University of Oslo International PhD Scholarship 2027",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "PhD",
+    "field": "Public Health",
+    "funding": "Fully Funded",
+    "deadline": "2027-03-27",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Public Health.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/26.jpg",
+    "featured": false,
+    "tags": [
+      "Public Health",
+      "PhD",
+      "Norway"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "University of Oslo International PhD Scholarship 2028",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "PhD",
+    "field": "Electrical Engineering",
+    "funding": "Fully Funded",
+    "deadline": "2027-04-01",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Electrical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/27.jpg",
+    "featured": false,
+    "tags": [
+      "Electrical Engineering",
+      "PhD",
+      "Norway"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Technical University of Munich International Bachelor Scholarship 2027",
+    "university": "Technical University of Munich",
+    "country": "Germany",
+    "degree": "Bachelor",
+    "field": "Computer Science",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-05-02",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Computer Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tum.de/en",
+    "image": "/images/scholarships/28.jpg",
+    "featured": false,
+    "tags": [
+      "Computer Science",
+      "Bachelor",
+      "Germany"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Sorbonne University International PhD Scholarship 2028",
+    "university": "Sorbonne University",
+    "country": "France",
+    "degree": "PhD",
+    "field": "Electrical Engineering",
+    "funding": "Partially Funded",
+    "deadline": "2027-06-03",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Electrical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.sorbonne-universite.fr/en",
+    "image": "/images/scholarships/29.jpg",
+    "featured": false,
+    "tags": [
+      "Electrical Engineering",
+      "PhD",
+      "France"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "University of Tokyo International Bachelor Scholarship 2027",
+    "university": "University of Tokyo",
+    "country": "Japan",
+    "degree": "Bachelor",
+    "field": "Artificial Intelligence",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-07-04",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Artificial Intelligence.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.u-tokyo.ac.jp/en",
+    "image": "/images/scholarships/30.jpg",
+    "featured": false,
+    "tags": [
+      "Artificial Intelligence",
+      "Bachelor",
+      "Japan"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Lund University International Bachelor Scholarship 2028",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "Bachelor",
+    "field": "Civil Engineering",
+    "funding": "Partially Funded",
+    "deadline": "2027-08-05",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Civil Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/31.jpg",
+    "featured": false,
+    "tags": [
+      "Civil Engineering",
+      "Bachelor",
+      "Sweden"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "KAIST International PhD Scholarship 2027",
+    "university": "KAIST",
+    "country": "South Korea",
+    "degree": "PhD",
+    "field": "Law",
+    "funding": "Partially Funded",
+    "deadline": "2027-09-06",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Law.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.kaist.ac.kr/en",
+    "image": "/images/scholarships/32.jpg",
+    "featured": false,
+    "tags": [
+      "Law",
+      "PhD",
+      "South Korea"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "University of Oslo International Master Scholarship 2028",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "Master",
+    "field": "Economics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-10-07",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/33.jpg",
+    "featured": false,
+    "tags": [
+      "Economics",
+      "Master",
+      "Norway"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "University of Tokyo International Master Scholarship 2027",
+    "university": "University of Tokyo",
+    "country": "Japan",
+    "degree": "Master",
+    "field": "Law",
+    "funding": "Partially Funded",
+    "deadline": "2027-11-08",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Law.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.u-tokyo.ac.jp/en",
+    "image": "/images/scholarships/34.jpg",
+    "featured": false,
+    "tags": [
+      "Law",
+      "Master",
+      "Japan"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Lund University International Bachelor Scholarship 2028",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "Bachelor",
+    "field": "Computer Science",
+    "funding": "Partially Funded",
+    "deadline": "2027-12-09",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Computer Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/35.jpg",
+    "featured": false,
+    "tags": [
+      "Computer Science",
+      "Bachelor",
+      "Sweden"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Delft University of Technology International Master Scholarship 2027",
+    "university": "Delft University of Technology",
+    "country": "Netherlands",
+    "degree": "Master",
+    "field": "Medicine",
+    "funding": "Partially Funded",
+    "deadline": "2027-01-10",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tudelft.nl/en",
+    "image": "/images/scholarships/36.jpg",
+    "featured": false,
+    "tags": [
+      "Medicine",
+      "Master",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "University of Tokyo International PhD Scholarship 2028",
+    "university": "University of Tokyo",
+    "country": "Japan",
+    "degree": "PhD",
+    "field": "Data Science",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-02-11",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Data Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.u-tokyo.ac.jp/en",
+    "image": "/images/scholarships/37.jpg",
+    "featured": false,
+    "tags": [
+      "Data Science",
+      "PhD",
+      "Japan"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "University of Melbourne International PhD Scholarship 2027",
+    "university": "University of Melbourne",
+    "country": "Australia",
+    "degree": "PhD",
+    "field": "Electrical Engineering",
+    "funding": "Partially Funded",
+    "deadline": "2027-03-12",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Electrical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.unimelb.edu.au",
+    "image": "/images/scholarships/38.jpg",
+    "featured": false,
+    "tags": [
+      "Electrical Engineering",
+      "PhD",
+      "Australia"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Sorbonne University International Bachelor Scholarship 2028",
+    "university": "Sorbonne University",
+    "country": "France",
+    "degree": "Bachelor",
+    "field": "Architecture",
+    "funding": "Partially Funded",
+    "deadline": "2027-04-13",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Architecture.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.sorbonne-universite.fr/en",
+    "image": "/images/scholarships/39.jpg",
+    "featured": false,
+    "tags": [
+      "Architecture",
+      "Bachelor",
+      "France"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "University of Oxford International Master Scholarship 2027",
+    "university": "University of Oxford",
+    "country": "United Kingdom",
+    "degree": "Master",
+    "field": "Data Science",
+    "funding": "Fully Funded",
+    "deadline": "2027-05-14",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Data Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.ox.ac.uk",
+    "image": "/images/scholarships/40.jpg",
+    "featured": false,
+    "tags": [
+      "Data Science",
+      "Master",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "University of Toronto International Bachelor Scholarship 2028",
+    "university": "University of Toronto",
+    "country": "Canada",
+    "degree": "Bachelor",
+    "field": "Law",
+    "funding": "Fully Funded",
+    "deadline": "2027-06-15",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Law.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.utoronto.ca",
+    "image": "/images/scholarships/41.jpg",
+    "featured": false,
+    "tags": [
+      "Law",
+      "Bachelor",
+      "Canada"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Delft University of Technology International PhD Scholarship 2027",
+    "university": "Delft University of Technology",
+    "country": "Netherlands",
+    "degree": "PhD",
+    "field": "Architecture",
+    "funding": "Partially Funded",
+    "deadline": "2027-07-16",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Architecture.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tudelft.nl/en",
+    "image": "/images/scholarships/42.jpg",
+    "featured": false,
+    "tags": [
+      "Architecture",
+      "PhD",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "University of Oslo International Bachelor Scholarship 2028",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "Bachelor",
+    "field": "Economics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-08-17",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/43.jpg",
+    "featured": false,
+    "tags": [
+      "Economics",
+      "Bachelor",
+      "Norway"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "King Saud University International Bachelor Scholarship 2027",
+    "university": "King Saud University",
+    "country": "Saudi Arabia",
+    "degree": "Bachelor",
+    "field": "Artificial Intelligence",
+    "funding": "Partially Funded",
+    "deadline": "2027-09-18",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Artificial Intelligence.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://ksu.edu.sa",
+    "image": "/images/scholarships/44.jpg",
+    "featured": false,
+    "tags": [
+      "Artificial Intelligence",
+      "Bachelor",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "University of Toronto International Bachelor Scholarship 2028",
+    "university": "University of Toronto",
+    "country": "Canada",
+    "degree": "Bachelor",
+    "field": "Business",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-10-19",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Business.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.utoronto.ca",
+    "image": "/images/scholarships/45.jpg",
+    "featured": false,
+    "tags": [
+      "Business",
+      "Bachelor",
+      "Canada"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "University of Toronto International Master Scholarship 2027",
+    "university": "University of Toronto",
+    "country": "Canada",
+    "degree": "Master",
+    "field": "Electrical Engineering",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-11-20",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Electrical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.utoronto.ca",
+    "image": "/images/scholarships/46.jpg",
+    "featured": false,
+    "tags": [
+      "Electrical Engineering",
+      "Master",
+      "Canada"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Technical University of Munich International PhD Scholarship 2028",
+    "university": "Technical University of Munich",
+    "country": "Germany",
+    "degree": "PhD",
+    "field": "Economics",
+    "funding": "Partially Funded",
+    "deadline": "2027-12-21",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tum.de/en",
+    "image": "/images/scholarships/47.jpg",
+    "featured": false,
+    "tags": [
+      "Economics",
+      "PhD",
+      "Germany"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "University of Oslo International Bachelor Scholarship 2027",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "Bachelor",
+    "field": "Economics",
+    "funding": "Partially Funded",
+    "deadline": "2027-01-22",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/48.jpg",
+    "featured": false,
+    "tags": [
+      "Economics",
+      "Bachelor",
+      "Norway"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "University of Toronto International PhD Scholarship 2028",
+    "university": "University of Toronto",
+    "country": "Canada",
+    "degree": "PhD",
+    "field": "Public Health",
+    "funding": "Fully Funded",
+    "deadline": "2027-02-23",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Public Health.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.utoronto.ca",
+    "image": "/images/scholarships/49.jpg",
+    "featured": false,
+    "tags": [
+      "Public Health",
+      "PhD",
+      "Canada"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "University of Oxford International PhD Scholarship 2027",
+    "university": "University of Oxford",
+    "country": "United Kingdom",
+    "degree": "PhD",
+    "field": "Artificial Intelligence",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-03-24",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Artificial Intelligence.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.ox.ac.uk",
+    "image": "/images/scholarships/50.jpg",
+    "featured": false,
+    "tags": [
+      "Artificial Intelligence",
+      "PhD",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 51,
+    "title": "King Saud University International Bachelor Scholarship 2028",
+    "university": "King Saud University",
+    "country": "Saudi Arabia",
+    "degree": "Bachelor",
+    "field": "Economics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-04-25",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://ksu.edu.sa",
+    "image": "/images/scholarships/51.jpg",
+    "featured": false,
+    "tags": [
+      "Economics",
+      "Bachelor",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Technical University of Munich International Bachelor Scholarship 2027",
+    "university": "Technical University of Munich",
+    "country": "Germany",
+    "degree": "Bachelor",
+    "field": "Medicine",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-05-26",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tum.de/en",
+    "image": "/images/scholarships/52.jpg",
+    "featured": false,
+    "tags": [
+      "Medicine",
+      "Bachelor",
+      "Germany"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "University of Tokyo International Master Scholarship 2028",
+    "university": "University of Tokyo",
+    "country": "Japan",
+    "degree": "Master",
+    "field": "Medicine",
+    "funding": "Partially Funded",
+    "deadline": "2027-06-27",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.u-tokyo.ac.jp/en",
+    "image": "/images/scholarships/53.jpg",
+    "featured": false,
+    "tags": [
+      "Medicine",
+      "Master",
+      "Japan"
+    ]
+  },
+  {
+    "id": 54,
+    "title": "King Saud University International PhD Scholarship 2027",
+    "university": "King Saud University",
+    "country": "Saudi Arabia",
+    "degree": "PhD",
+    "field": "Physics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-07-01",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Physics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://ksu.edu.sa",
+    "image": "/images/scholarships/54.jpg",
+    "featured": false,
+    "tags": [
+      "Physics",
+      "PhD",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "id": 55,
+    "title": "University of Melbourne International Bachelor Scholarship 2028",
+    "university": "University of Melbourne",
+    "country": "Australia",
+    "degree": "Bachelor",
+    "field": "Civil Engineering",
+    "funding": "Partially Funded",
+    "deadline": "2027-08-02",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Civil Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.unimelb.edu.au",
+    "image": "/images/scholarships/55.jpg",
+    "featured": false,
+    "tags": [
+      "Civil Engineering",
+      "Bachelor",
+      "Australia"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "RWTH Aachen University International Bachelor Scholarship 2027",
+    "university": "RWTH Aachen University",
+    "country": "Germany",
+    "degree": "Bachelor",
+    "field": "Artificial Intelligence",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-09-03",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Artificial Intelligence.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.rwth-aachen.de",
+    "image": "/images/scholarships/56.jpg",
+    "featured": false,
+    "tags": [
+      "Artificial Intelligence",
+      "Bachelor",
+      "Germany"
+    ]
+  },
+  {
+    "id": 57,
+    "title": "University of Oslo International Bachelor Scholarship 2028",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "Bachelor",
+    "field": "Business",
+    "funding": "Partially Funded",
+    "deadline": "2027-10-04",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Business.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/57.jpg",
+    "featured": false,
+    "tags": [
+      "Business",
+      "Bachelor",
+      "Norway"
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Sorbonne University International PhD Scholarship 2027",
+    "university": "Sorbonne University",
+    "country": "France",
+    "degree": "PhD",
+    "field": "Cybersecurity",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-11-05",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Cybersecurity.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.sorbonne-universite.fr/en",
+    "image": "/images/scholarships/58.jpg",
+    "featured": false,
+    "tags": [
+      "Cybersecurity",
+      "PhD",
+      "France"
+    ]
+  },
+  {
+    "id": 59,
+    "title": "University of Oslo International Bachelor Scholarship 2028",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "Bachelor",
+    "field": "Mathematics",
+    "funding": "Fully Funded",
+    "deadline": "2027-12-06",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mathematics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/59.jpg",
+    "featured": false,
+    "tags": [
+      "Mathematics",
+      "Bachelor",
+      "Norway"
+    ]
+  },
+  {
+    "id": 60,
+    "title": "University of Oslo International Bachelor Scholarship 2027",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "Bachelor",
+    "field": "Artificial Intelligence",
+    "funding": "Fully Funded",
+    "deadline": "2027-01-07",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Artificial Intelligence.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/60.jpg",
+    "featured": false,
+    "tags": [
+      "Artificial Intelligence",
+      "Bachelor",
+      "Norway"
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Aalto University International Master Scholarship 2028",
+    "university": "Aalto University",
+    "country": "Finland",
+    "degree": "Master",
+    "field": "Electrical Engineering",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-02-08",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Electrical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.aalto.fi/en",
+    "image": "/images/scholarships/61.jpg",
+    "featured": false,
+    "tags": [
+      "Electrical Engineering",
+      "Master",
+      "Finland"
+    ]
+  },
+  {
+    "id": 62,
+    "title": "RWTH Aachen University International PhD Scholarship 2027",
+    "university": "RWTH Aachen University",
+    "country": "Germany",
+    "degree": "PhD",
+    "field": "Economics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-03-09",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.rwth-aachen.de",
+    "image": "/images/scholarships/62.jpg",
+    "featured": false,
+    "tags": [
+      "Economics",
+      "PhD",
+      "Germany"
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Lund University International Bachelor Scholarship 2028",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "Bachelor",
+    "field": "Mechanical Engineering",
+    "funding": "Partially Funded",
+    "deadline": "2027-04-10",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mechanical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/63.jpg",
+    "featured": false,
+    "tags": [
+      "Mechanical Engineering",
+      "Bachelor",
+      "Sweden"
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Delft University of Technology International PhD Scholarship 2027",
+    "university": "Delft University of Technology",
+    "country": "Netherlands",
+    "degree": "PhD",
+    "field": "Computer Science",
+    "funding": "Partially Funded",
+    "deadline": "2027-05-11",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Computer Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tudelft.nl/en",
+    "image": "/images/scholarships/64.jpg",
+    "featured": false,
+    "tags": [
+      "Computer Science",
+      "PhD",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": 65,
+    "title": "University of Oxford International PhD Scholarship 2028",
+    "university": "University of Oxford",
+    "country": "United Kingdom",
+    "degree": "PhD",
+    "field": "Electrical Engineering",
+    "funding": "Fully Funded",
+    "deadline": "2027-06-12",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Electrical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.ox.ac.uk",
+    "image": "/images/scholarships/65.jpg",
+    "featured": false,
+    "tags": [
+      "Electrical Engineering",
+      "PhD",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Lund University International PhD Scholarship 2027",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "PhD",
+    "field": "Cybersecurity",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-07-13",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Cybersecurity.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/66.jpg",
+    "featured": false,
+    "tags": [
+      "Cybersecurity",
+      "PhD",
+      "Sweden"
+    ]
+  },
+  {
+    "id": 67,
+    "title": "RWTH Aachen University International Master Scholarship 2028",
+    "university": "RWTH Aachen University",
+    "country": "Germany",
+    "degree": "Master",
+    "field": "Public Health",
+    "funding": "Fully Funded",
+    "deadline": "2027-08-14",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Public Health.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.rwth-aachen.de",
+    "image": "/images/scholarships/67.jpg",
+    "featured": false,
+    "tags": [
+      "Public Health",
+      "Master",
+      "Germany"
+    ]
+  },
+  {
+    "id": 68,
+    "title": "University of Oxford International Bachelor Scholarship 2027",
+    "university": "University of Oxford",
+    "country": "United Kingdom",
+    "degree": "Bachelor",
+    "field": "Business",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-09-15",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Business.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.ox.ac.uk",
+    "image": "/images/scholarships/68.jpg",
+    "featured": false,
+    "tags": [
+      "Business",
+      "Bachelor",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 69,
+    "title": "University of Oxford International Bachelor Scholarship 2028",
+    "university": "University of Oxford",
+    "country": "United Kingdom",
+    "degree": "Bachelor",
+    "field": "Mechanical Engineering",
+    "funding": "Partially Funded",
+    "deadline": "2027-10-16",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mechanical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.ox.ac.uk",
+    "image": "/images/scholarships/69.jpg",
+    "featured": false,
+    "tags": [
+      "Mechanical Engineering",
+      "Bachelor",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 70,
+    "title": "King Saud University International Bachelor Scholarship 2027",
+    "university": "King Saud University",
+    "country": "Saudi Arabia",
+    "degree": "Bachelor",
+    "field": "Artificial Intelligence",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-11-17",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Artificial Intelligence.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://ksu.edu.sa",
+    "image": "/images/scholarships/70.jpg",
+    "featured": false,
+    "tags": [
+      "Artificial Intelligence",
+      "Bachelor",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "id": 71,
+    "title": "University of Oxford International Master Scholarship 2028",
+    "university": "University of Oxford",
+    "country": "United Kingdom",
+    "degree": "Master",
+    "field": "Architecture",
+    "funding": "Partially Funded",
+    "deadline": "2027-12-18",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Architecture.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.ox.ac.uk",
+    "image": "/images/scholarships/71.jpg",
+    "featured": false,
+    "tags": [
+      "Architecture",
+      "Master",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Technical University of Munich International PhD Scholarship 2027",
+    "university": "Technical University of Munich",
+    "country": "Germany",
+    "degree": "PhD",
+    "field": "Business",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-01-19",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Business.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tum.de/en",
+    "image": "/images/scholarships/72.jpg",
+    "featured": false,
+    "tags": [
+      "Business",
+      "PhD",
+      "Germany"
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Sorbonne University International Bachelor Scholarship 2028",
+    "university": "Sorbonne University",
+    "country": "France",
+    "degree": "Bachelor",
+    "field": "Electrical Engineering",
+    "funding": "Partially Funded",
+    "deadline": "2027-02-20",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Electrical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.sorbonne-universite.fr/en",
+    "image": "/images/scholarships/73.jpg",
+    "featured": false,
+    "tags": [
+      "Electrical Engineering",
+      "Bachelor",
+      "France"
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Lund University International Bachelor Scholarship 2027",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "Bachelor",
+    "field": "Architecture",
+    "funding": "Fully Funded",
+    "deadline": "2027-03-21",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Architecture.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/74.jpg",
+    "featured": false,
+    "tags": [
+      "Architecture",
+      "Bachelor",
+      "Sweden"
+    ]
+  },
+  {
+    "id": 75,
+    "title": "University of Oslo International PhD Scholarship 2028",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "PhD",
+    "field": "Medicine",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-04-22",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/75.jpg",
+    "featured": false,
+    "tags": [
+      "Medicine",
+      "PhD",
+      "Norway"
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Lund University International PhD Scholarship 2027",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "PhD",
+    "field": "Civil Engineering",
+    "funding": "Fully Funded",
+    "deadline": "2027-05-23",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Civil Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/76.jpg",
+    "featured": false,
+    "tags": [
+      "Civil Engineering",
+      "PhD",
+      "Sweden"
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Sorbonne University International Master Scholarship 2028",
+    "university": "Sorbonne University",
+    "country": "France",
+    "degree": "Master",
+    "field": "Medicine",
+    "funding": "Partially Funded",
+    "deadline": "2027-06-24",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.sorbonne-universite.fr/en",
+    "image": "/images/scholarships/77.jpg",
+    "featured": false,
+    "tags": [
+      "Medicine",
+      "Master",
+      "France"
+    ]
+  },
+  {
+    "id": 78,
+    "title": "University of Tokyo International Bachelor Scholarship 2027",
+    "university": "University of Tokyo",
+    "country": "Japan",
+    "degree": "Bachelor",
+    "field": "Mathematics",
+    "funding": "Partially Funded",
+    "deadline": "2027-07-25",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mathematics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.u-tokyo.ac.jp/en",
+    "image": "/images/scholarships/78.jpg",
+    "featured": false,
+    "tags": [
+      "Mathematics",
+      "Bachelor",
+      "Japan"
+    ]
+  },
+  {
+    "id": 79,
+    "title": "University of Tokyo International PhD Scholarship 2028",
+    "university": "University of Tokyo",
+    "country": "Japan",
+    "degree": "PhD",
+    "field": "Data Science",
+    "funding": "Partially Funded",
+    "deadline": "2027-08-26",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Data Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.u-tokyo.ac.jp/en",
+    "image": "/images/scholarships/79.jpg",
+    "featured": false,
+    "tags": [
+      "Data Science",
+      "PhD",
+      "Japan"
+    ]
+  },
+  {
+    "id": 80,
+    "title": "University of Tokyo International PhD Scholarship 2027",
+    "university": "University of Tokyo",
+    "country": "Japan",
+    "degree": "PhD",
+    "field": "Physics",
+    "funding": "Fully Funded",
+    "deadline": "2027-09-27",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Physics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.u-tokyo.ac.jp/en",
+    "image": "/images/scholarships/80.jpg",
+    "featured": false,
+    "tags": [
+      "Physics",
+      "PhD",
+      "Japan"
+    ]
+  },
+  {
+    "id": 81,
+    "title": "University of Melbourne International Bachelor Scholarship 2028",
+    "university": "University of Melbourne",
+    "country": "Australia",
+    "degree": "Bachelor",
+    "field": "Medicine",
+    "funding": "Fully Funded",
+    "deadline": "2027-10-01",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.unimelb.edu.au",
+    "image": "/images/scholarships/81.jpg",
+    "featured": false,
+    "tags": [
+      "Medicine",
+      "Bachelor",
+      "Australia"
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Sorbonne University International PhD Scholarship 2027",
+    "university": "Sorbonne University",
+    "country": "France",
+    "degree": "PhD",
+    "field": "Business",
+    "funding": "Partially Funded",
+    "deadline": "2027-11-02",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Business.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.sorbonne-universite.fr/en",
+    "image": "/images/scholarships/82.jpg",
+    "featured": false,
+    "tags": [
+      "Business",
+      "PhD",
+      "France"
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Delft University of Technology International Master Scholarship 2028",
+    "university": "Delft University of Technology",
+    "country": "Netherlands",
+    "degree": "Master",
+    "field": "Economics",
+    "funding": "Partially Funded",
+    "deadline": "2027-12-03",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tudelft.nl/en",
+    "image": "/images/scholarships/83.jpg",
+    "featured": false,
+    "tags": [
+      "Economics",
+      "Master",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Delft University of Technology International Master Scholarship 2027",
+    "university": "Delft University of Technology",
+    "country": "Netherlands",
+    "degree": "Master",
+    "field": "Business",
+    "funding": "Fully Funded",
+    "deadline": "2027-01-04",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Business.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tudelft.nl/en",
+    "image": "/images/scholarships/84.jpg",
+    "featured": false,
+    "tags": [
+      "Business",
+      "Master",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Aalto University International Master Scholarship 2028",
+    "university": "Aalto University",
+    "country": "Finland",
+    "degree": "Master",
+    "field": "Economics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-02-05",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.aalto.fi/en",
+    "image": "/images/scholarships/85.jpg",
+    "featured": false,
+    "tags": [
+      "Economics",
+      "Master",
+      "Finland"
+    ]
+  },
+  {
+    "id": 86,
+    "title": "University of Melbourne International PhD Scholarship 2027",
+    "university": "University of Melbourne",
+    "country": "Australia",
+    "degree": "PhD",
+    "field": "Computer Science",
+    "funding": "Fully Funded",
+    "deadline": "2027-03-06",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Computer Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.unimelb.edu.au",
+    "image": "/images/scholarships/86.jpg",
+    "featured": false,
+    "tags": [
+      "Computer Science",
+      "PhD",
+      "Australia"
+    ]
+  },
+  {
+    "id": 87,
+    "title": "King Saud University International Bachelor Scholarship 2028",
+    "university": "King Saud University",
+    "country": "Saudi Arabia",
+    "degree": "Bachelor",
+    "field": "Economics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-04-07",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://ksu.edu.sa",
+    "image": "/images/scholarships/87.jpg",
+    "featured": false,
+    "tags": [
+      "Economics",
+      "Bachelor",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "id": 88,
+    "title": "University of Melbourne International Master Scholarship 2027",
+    "university": "University of Melbourne",
+    "country": "Australia",
+    "degree": "Master",
+    "field": "Physics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-05-08",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Physics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.unimelb.edu.au",
+    "image": "/images/scholarships/88.jpg",
+    "featured": false,
+    "tags": [
+      "Physics",
+      "Master",
+      "Australia"
+    ]
+  },
+  {
+    "id": 89,
+    "title": "RWTH Aachen University International PhD Scholarship 2028",
+    "university": "RWTH Aachen University",
+    "country": "Germany",
+    "degree": "PhD",
+    "field": "Cybersecurity",
+    "funding": "Partially Funded",
+    "deadline": "2027-06-09",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Cybersecurity.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.rwth-aachen.de",
+    "image": "/images/scholarships/89.jpg",
+    "featured": false,
+    "tags": [
+      "Cybersecurity",
+      "PhD",
+      "Germany"
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Lund University International PhD Scholarship 2027",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "PhD",
+    "field": "Computer Science",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-07-10",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Computer Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/90.jpg",
+    "featured": false,
+    "tags": [
+      "Computer Science",
+      "PhD",
+      "Sweden"
+    ]
+  },
+  {
+    "id": 91,
+    "title": "University of Oxford International Master Scholarship 2028",
+    "university": "University of Oxford",
+    "country": "United Kingdom",
+    "degree": "Master",
+    "field": "Physics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-08-11",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Physics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.ox.ac.uk",
+    "image": "/images/scholarships/91.jpg",
+    "featured": false,
+    "tags": [
+      "Physics",
+      "Master",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 92,
+    "title": "University of Oxford International Master Scholarship 2027",
+    "university": "University of Oxford",
+    "country": "United Kingdom",
+    "degree": "Master",
+    "field": "Cybersecurity",
+    "funding": "Fully Funded",
+    "deadline": "2027-09-12",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Cybersecurity.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.ox.ac.uk",
+    "image": "/images/scholarships/92.jpg",
+    "featured": false,
+    "tags": [
+      "Cybersecurity",
+      "Master",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 93,
+    "title": "University of Oslo International Master Scholarship 2028",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "Master",
+    "field": "Data Science",
+    "funding": "Fully Funded",
+    "deadline": "2027-10-13",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Data Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/93.jpg",
+    "featured": false,
+    "tags": [
+      "Data Science",
+      "Master",
+      "Norway"
+    ]
+  },
+  {
+    "id": 94,
+    "title": "University of Tokyo International Bachelor Scholarship 2027",
+    "university": "University of Tokyo",
+    "country": "Japan",
+    "degree": "Bachelor",
+    "field": "Medicine",
+    "funding": "Partially Funded",
+    "deadline": "2027-11-14",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.u-tokyo.ac.jp/en",
+    "image": "/images/scholarships/94.jpg",
+    "featured": false,
+    "tags": [
+      "Medicine",
+      "Bachelor",
+      "Japan"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "University of Melbourne International Bachelor Scholarship 2028",
+    "university": "University of Melbourne",
+    "country": "Australia",
+    "degree": "Bachelor",
+    "field": "Data Science",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-12-15",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Data Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.unimelb.edu.au",
+    "image": "/images/scholarships/95.jpg",
+    "featured": false,
+    "tags": [
+      "Data Science",
+      "Bachelor",
+      "Australia"
+    ]
+  },
+  {
+    "id": 96,
+    "title": "King Saud University International PhD Scholarship 2027",
+    "university": "King Saud University",
+    "country": "Saudi Arabia",
+    "degree": "PhD",
+    "field": "Public Health",
+    "funding": "Partially Funded",
+    "deadline": "2027-01-16",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Public Health.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://ksu.edu.sa",
+    "image": "/images/scholarships/96.jpg",
+    "featured": false,
+    "tags": [
+      "Public Health",
+      "PhD",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Technical University of Munich International PhD Scholarship 2028",
+    "university": "Technical University of Munich",
+    "country": "Germany",
+    "degree": "PhD",
+    "field": "Mechanical Engineering",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-02-17",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mechanical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tum.de/en",
+    "image": "/images/scholarships/97.jpg",
+    "featured": false,
+    "tags": [
+      "Mechanical Engineering",
+      "PhD",
+      "Germany"
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Lund University International PhD Scholarship 2027",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "PhD",
+    "field": "Data Science",
+    "funding": "Partially Funded",
+    "deadline": "2027-03-18",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Data Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/98.jpg",
+    "featured": false,
+    "tags": [
+      "Data Science",
+      "PhD",
+      "Sweden"
+    ]
+  },
+  {
+    "id": 99,
+    "title": "University of Melbourne International PhD Scholarship 2028",
+    "university": "University of Melbourne",
+    "country": "Australia",
+    "degree": "PhD",
+    "field": "Public Health",
+    "funding": "Fully Funded",
+    "deadline": "2027-04-19",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Public Health.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.unimelb.edu.au",
+    "image": "/images/scholarships/99.jpg",
+    "featured": false,
+    "tags": [
+      "Public Health",
+      "PhD",
+      "Australia"
+    ]
+  },
+  {
+    "id": 100,
+    "title": "University of Oxford International PhD Scholarship 2027",
+    "university": "University of Oxford",
+    "country": "United Kingdom",
+    "degree": "PhD",
+    "field": "Medicine",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-05-20",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.ox.ac.uk",
+    "image": "/images/scholarships/100.jpg",
+    "featured": false,
+    "tags": [
+      "Medicine",
+      "PhD",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Middle East Technical University International Master Scholarship 2028",
+    "university": "Middle East Technical University",
+    "country": "Turkey",
+    "degree": "Master",
+    "field": "Business",
+    "funding": "Partially Funded",
+    "deadline": "2027-06-21",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Business.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.metu.edu.tr",
+    "image": "/images/scholarships/101.jpg",
+    "featured": false,
+    "tags": [
+      "Business",
+      "Master",
+      "Turkey"
+    ]
+  },
+  {
+    "id": 102,
+    "title": "KAIST International Master Scholarship 2027",
+    "university": "KAIST",
+    "country": "South Korea",
+    "degree": "Master",
+    "field": "Computer Science",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-07-22",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Computer Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.kaist.ac.kr/en",
+    "image": "/images/scholarships/102.jpg",
+    "featured": false,
+    "tags": [
+      "Computer Science",
+      "Master",
+      "South Korea"
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Middle East Technical University International Master Scholarship 2028",
+    "university": "Middle East Technical University",
+    "country": "Turkey",
+    "degree": "Master",
+    "field": "Mechanical Engineering",
+    "funding": "Fully Funded",
+    "deadline": "2027-08-23",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Mechanical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.metu.edu.tr",
+    "image": "/images/scholarships/103.jpg",
+    "featured": false,
+    "tags": [
+      "Mechanical Engineering",
+      "Master",
+      "Turkey"
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Sorbonne University International Master Scholarship 2027",
+    "university": "Sorbonne University",
+    "country": "France",
+    "degree": "Master",
+    "field": "Electrical Engineering",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-09-24",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Electrical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.sorbonne-universite.fr/en",
+    "image": "/images/scholarships/104.jpg",
+    "featured": false,
+    "tags": [
+      "Electrical Engineering",
+      "Master",
+      "France"
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Aalto University International Master Scholarship 2028",
+    "university": "Aalto University",
+    "country": "Finland",
+    "degree": "Master",
+    "field": "Data Science",
+    "funding": "Fully Funded",
+    "deadline": "2027-10-25",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Data Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.aalto.fi/en",
+    "image": "/images/scholarships/105.jpg",
+    "featured": false,
+    "tags": [
+      "Data Science",
+      "Master",
+      "Finland"
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Delft University of Technology International PhD Scholarship 2027",
+    "university": "Delft University of Technology",
+    "country": "Netherlands",
+    "degree": "PhD",
+    "field": "Medicine",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-11-26",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tudelft.nl/en",
+    "image": "/images/scholarships/106.jpg",
+    "featured": false,
+    "tags": [
+      "Medicine",
+      "PhD",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": 107,
+    "title": "RWTH Aachen University International Master Scholarship 2028",
+    "university": "RWTH Aachen University",
+    "country": "Germany",
+    "degree": "Master",
+    "field": "Artificial Intelligence",
+    "funding": "Partially Funded",
+    "deadline": "2027-12-27",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Artificial Intelligence.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.rwth-aachen.de",
+    "image": "/images/scholarships/107.jpg",
+    "featured": false,
+    "tags": [
+      "Artificial Intelligence",
+      "Master",
+      "Germany"
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Aalto University International Master Scholarship 2027",
+    "university": "Aalto University",
+    "country": "Finland",
+    "degree": "Master",
+    "field": "Cybersecurity",
+    "funding": "Partially Funded",
+    "deadline": "2027-01-01",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Cybersecurity.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.aalto.fi/en",
+    "image": "/images/scholarships/108.jpg",
+    "featured": false,
+    "tags": [
+      "Cybersecurity",
+      "Master",
+      "Finland"
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Technical University of Munich International Bachelor Scholarship 2028",
+    "university": "Technical University of Munich",
+    "country": "Germany",
+    "degree": "Bachelor",
+    "field": "Mathematics",
+    "funding": "Partially Funded",
+    "deadline": "2027-02-02",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mathematics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tum.de/en",
+    "image": "/images/scholarships/109.jpg",
+    "featured": false,
+    "tags": [
+      "Mathematics",
+      "Bachelor",
+      "Germany"
+    ]
+  },
+  {
+    "id": 110,
+    "title": "University of Toronto International PhD Scholarship 2027",
+    "university": "University of Toronto",
+    "country": "Canada",
+    "degree": "PhD",
+    "field": "Medicine",
+    "funding": "Fully Funded",
+    "deadline": "2027-03-03",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.utoronto.ca",
+    "image": "/images/scholarships/110.jpg",
+    "featured": false,
+    "tags": [
+      "Medicine",
+      "PhD",
+      "Canada"
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Lund University International PhD Scholarship 2028",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "PhD",
+    "field": "Mathematics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-04-04",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mathematics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/111.jpg",
+    "featured": false,
+    "tags": [
+      "Mathematics",
+      "PhD",
+      "Sweden"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Sorbonne University International Master Scholarship 2027",
+    "university": "Sorbonne University",
+    "country": "France",
+    "degree": "Master",
+    "field": "Architecture",
+    "funding": "Fully Funded",
+    "deadline": "2027-05-05",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Architecture.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.sorbonne-universite.fr/en",
+    "image": "/images/scholarships/112.jpg",
+    "featured": false,
+    "tags": [
+      "Architecture",
+      "Master",
+      "France"
+    ]
+  },
+  {
+    "id": 113,
+    "title": "RWTH Aachen University International Master Scholarship 2028",
+    "university": "RWTH Aachen University",
+    "country": "Germany",
+    "degree": "Master",
+    "field": "Economics",
+    "funding": "Partially Funded",
+    "deadline": "2027-06-06",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.rwth-aachen.de",
+    "image": "/images/scholarships/113.jpg",
+    "featured": false,
+    "tags": [
+      "Economics",
+      "Master",
+      "Germany"
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Middle East Technical University International Bachelor Scholarship 2027",
+    "university": "Middle East Technical University",
+    "country": "Turkey",
+    "degree": "Bachelor",
+    "field": "Electrical Engineering",
+    "funding": "Fully Funded",
+    "deadline": "2027-07-07",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Electrical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.metu.edu.tr",
+    "image": "/images/scholarships/114.jpg",
+    "featured": false,
+    "tags": [
+      "Electrical Engineering",
+      "Bachelor",
+      "Turkey"
+    ]
+  },
+  {
+    "id": 115,
+    "title": "King Saud University International Master Scholarship 2028",
+    "university": "King Saud University",
+    "country": "Saudi Arabia",
+    "degree": "Master",
+    "field": "Economics",
+    "funding": "Partially Funded",
+    "deadline": "2027-08-08",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://ksu.edu.sa",
+    "image": "/images/scholarships/115.jpg",
+    "featured": false,
+    "tags": [
+      "Economics",
+      "Master",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "id": 116,
+    "title": "University of Oxford International Bachelor Scholarship 2027",
+    "university": "University of Oxford",
+    "country": "United Kingdom",
+    "degree": "Bachelor",
+    "field": "Mathematics",
+    "funding": "Fully Funded",
+    "deadline": "2027-09-09",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mathematics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.ox.ac.uk",
+    "image": "/images/scholarships/116.jpg",
+    "featured": false,
+    "tags": [
+      "Mathematics",
+      "Bachelor",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Delft University of Technology International Master Scholarship 2028",
+    "university": "Delft University of Technology",
+    "country": "Netherlands",
+    "degree": "Master",
+    "field": "Computer Science",
+    "funding": "Fully Funded",
+    "deadline": "2027-10-10",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Computer Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tudelft.nl/en",
+    "image": "/images/scholarships/117.jpg",
+    "featured": false,
+    "tags": [
+      "Computer Science",
+      "Master",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Middle East Technical University International Bachelor Scholarship 2027",
+    "university": "Middle East Technical University",
+    "country": "Turkey",
+    "degree": "Bachelor",
+    "field": "Artificial Intelligence",
+    "funding": "Fully Funded",
+    "deadline": "2027-11-11",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Artificial Intelligence.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.metu.edu.tr",
+    "image": "/images/scholarships/118.jpg",
+    "featured": false,
+    "tags": [
+      "Artificial Intelligence",
+      "Bachelor",
+      "Turkey"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "King Saud University International PhD Scholarship 2028",
+    "university": "King Saud University",
+    "country": "Saudi Arabia",
+    "degree": "PhD",
+    "field": "Electrical Engineering",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-12-12",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Electrical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://ksu.edu.sa",
+    "image": "/images/scholarships/119.jpg",
+    "featured": false,
+    "tags": [
+      "Electrical Engineering",
+      "PhD",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Lund University International Master Scholarship 2027",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "Master",
+    "field": "Architecture",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-01-13",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Architecture.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/120.jpg",
+    "featured": false,
+    "tags": [
+      "Architecture",
+      "Master",
+      "Sweden"
+    ]
+  },
+  {
+    "id": 121,
+    "title": "King Saud University International Bachelor Scholarship 2028",
+    "university": "King Saud University",
+    "country": "Saudi Arabia",
+    "degree": "Bachelor",
+    "field": "Medicine",
+    "funding": "Partially Funded",
+    "deadline": "2027-02-14",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://ksu.edu.sa",
+    "image": "/images/scholarships/121.jpg",
+    "featured": false,
+    "tags": [
+      "Medicine",
+      "Bachelor",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Middle East Technical University International Bachelor Scholarship 2027",
+    "university": "Middle East Technical University",
+    "country": "Turkey",
+    "degree": "Bachelor",
+    "field": "Law",
+    "funding": "Partially Funded",
+    "deadline": "2027-03-15",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Law.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.metu.edu.tr",
+    "image": "/images/scholarships/122.jpg",
+    "featured": false,
+    "tags": [
+      "Law",
+      "Bachelor",
+      "Turkey"
+    ]
+  },
+  {
+    "id": 123,
+    "title": "University of Melbourne International PhD Scholarship 2028",
+    "university": "University of Melbourne",
+    "country": "Australia",
+    "degree": "PhD",
+    "field": "Civil Engineering",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-04-16",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Civil Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.unimelb.edu.au",
+    "image": "/images/scholarships/123.jpg",
+    "featured": false,
+    "tags": [
+      "Civil Engineering",
+      "PhD",
+      "Australia"
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Lund University International PhD Scholarship 2027",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "PhD",
+    "field": "Mathematics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-05-17",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mathematics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/124.jpg",
+    "featured": false,
+    "tags": [
+      "Mathematics",
+      "PhD",
+      "Sweden"
+    ]
+  },
+  {
+    "id": 125,
+    "title": "King Saud University International Master Scholarship 2028",
+    "university": "King Saud University",
+    "country": "Saudi Arabia",
+    "degree": "Master",
+    "field": "Mathematics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-06-18",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Mathematics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://ksu.edu.sa",
+    "image": "/images/scholarships/125.jpg",
+    "featured": false,
+    "tags": [
+      "Mathematics",
+      "Master",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Delft University of Technology International Bachelor Scholarship 2027",
+    "university": "Delft University of Technology",
+    "country": "Netherlands",
+    "degree": "Bachelor",
+    "field": "Physics",
+    "funding": "Fully Funded",
+    "deadline": "2027-07-19",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Physics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tudelft.nl/en",
+    "image": "/images/scholarships/126.jpg",
+    "featured": false,
+    "tags": [
+      "Physics",
+      "Bachelor",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": 127,
+    "title": "University of Oslo International Bachelor Scholarship 2028",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "Bachelor",
+    "field": "Artificial Intelligence",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-08-20",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Artificial Intelligence.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/127.jpg",
+    "featured": false,
+    "tags": [
+      "Artificial Intelligence",
+      "Bachelor",
+      "Norway"
+    ]
+  },
+  {
+    "id": 128,
+    "title": "University of Tokyo International PhD Scholarship 2027",
+    "university": "University of Tokyo",
+    "country": "Japan",
+    "degree": "PhD",
+    "field": "Mechanical Engineering",
+    "funding": "Partially Funded",
+    "deadline": "2027-09-21",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mechanical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.u-tokyo.ac.jp/en",
+    "image": "/images/scholarships/128.jpg",
+    "featured": false,
+    "tags": [
+      "Mechanical Engineering",
+      "PhD",
+      "Japan"
+    ]
+  },
+  {
+    "id": 129,
+    "title": "King Saud University International Bachelor Scholarship 2028",
+    "university": "King Saud University",
+    "country": "Saudi Arabia",
+    "degree": "Bachelor",
+    "field": "Law",
+    "funding": "Partially Funded",
+    "deadline": "2027-10-22",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Law.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://ksu.edu.sa",
+    "image": "/images/scholarships/129.jpg",
+    "featured": false,
+    "tags": [
+      "Law",
+      "Bachelor",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Lund University International Bachelor Scholarship 2027",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "Bachelor",
+    "field": "Business",
+    "funding": "Partially Funded",
+    "deadline": "2027-11-23",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Business.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/130.jpg",
+    "featured": false,
+    "tags": [
+      "Business",
+      "Bachelor",
+      "Sweden"
+    ]
+  },
+  {
+    "id": 131,
+    "title": "University of Oslo International Bachelor Scholarship 2028",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "Bachelor",
+    "field": "Architecture",
+    "funding": "Fully Funded",
+    "deadline": "2027-12-24",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Architecture.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/131.jpg",
+    "featured": false,
+    "tags": [
+      "Architecture",
+      "Bachelor",
+      "Norway"
+    ]
+  },
+  {
+    "id": 132,
+    "title": "University of Oslo International PhD Scholarship 2027",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "PhD",
+    "field": "Mathematics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-01-25",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mathematics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/132.jpg",
+    "featured": false,
+    "tags": [
+      "Mathematics",
+      "PhD",
+      "Norway"
+    ]
+  },
+  {
+    "id": 133,
+    "title": "University of Cambridge International Bachelor Scholarship 2028",
+    "university": "University of Cambridge",
+    "country": "United Kingdom",
+    "degree": "Bachelor",
+    "field": "Architecture",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-02-26",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Architecture.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.cam.ac.uk",
+    "image": "/images/scholarships/133.jpg",
+    "featured": false,
+    "tags": [
+      "Architecture",
+      "Bachelor",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 134,
+    "title": "University of Oslo International Master Scholarship 2027",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "Master",
+    "field": "Computer Science",
+    "funding": "Fully Funded",
+    "deadline": "2027-03-27",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Computer Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/134.jpg",
+    "featured": false,
+    "tags": [
+      "Computer Science",
+      "Master",
+      "Norway"
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Technical University of Munich International PhD Scholarship 2028",
+    "university": "Technical University of Munich",
+    "country": "Germany",
+    "degree": "PhD",
+    "field": "Medicine",
+    "funding": "Partially Funded",
+    "deadline": "2027-04-01",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Medicine.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tum.de/en",
+    "image": "/images/scholarships/135.jpg",
+    "featured": false,
+    "tags": [
+      "Medicine",
+      "PhD",
+      "Germany"
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Middle East Technical University International Bachelor Scholarship 2027",
+    "university": "Middle East Technical University",
+    "country": "Turkey",
+    "degree": "Bachelor",
+    "field": "Artificial Intelligence",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-05-02",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Artificial Intelligence.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.metu.edu.tr",
+    "image": "/images/scholarships/136.jpg",
+    "featured": false,
+    "tags": [
+      "Artificial Intelligence",
+      "Bachelor",
+      "Turkey"
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Delft University of Technology International PhD Scholarship 2028",
+    "university": "Delft University of Technology",
+    "country": "Netherlands",
+    "degree": "PhD",
+    "field": "Mechanical Engineering",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-06-03",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Mechanical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.tudelft.nl/en",
+    "image": "/images/scholarships/137.jpg",
+    "featured": false,
+    "tags": [
+      "Mechanical Engineering",
+      "PhD",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": 138,
+    "title": "University of Toronto International Master Scholarship 2027",
+    "university": "University of Toronto",
+    "country": "Canada",
+    "degree": "Master",
+    "field": "Public Health",
+    "funding": "Fully Funded",
+    "deadline": "2027-07-04",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Public Health.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.utoronto.ca",
+    "image": "/images/scholarships/138.jpg",
+    "featured": false,
+    "tags": [
+      "Public Health",
+      "Master",
+      "Canada"
+    ]
+  },
+  {
+    "id": 139,
+    "title": "Middle East Technical University International Master Scholarship 2028",
+    "university": "Middle East Technical University",
+    "country": "Turkey",
+    "degree": "Master",
+    "field": "Cybersecurity",
+    "funding": "Fully Funded",
+    "deadline": "2027-08-05",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Cybersecurity.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.metu.edu.tr",
+    "image": "/images/scholarships/139.jpg",
+    "featured": false,
+    "tags": [
+      "Cybersecurity",
+      "Master",
+      "Turkey"
+    ]
+  },
+  {
+    "id": 140,
+    "title": "KAIST International Master Scholarship 2027",
+    "university": "KAIST",
+    "country": "South Korea",
+    "degree": "Master",
+    "field": "Law",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-09-06",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Law.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.kaist.ac.kr/en",
+    "image": "/images/scholarships/140.jpg",
+    "featured": false,
+    "tags": [
+      "Law",
+      "Master",
+      "South Korea"
+    ]
+  },
+  {
+    "id": 141,
+    "title": "RWTH Aachen University International Bachelor Scholarship 2028",
+    "university": "RWTH Aachen University",
+    "country": "Germany",
+    "degree": "Bachelor",
+    "field": "Architecture",
+    "funding": "Partially Funded",
+    "deadline": "2027-10-07",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Architecture.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.rwth-aachen.de",
+    "image": "/images/scholarships/141.jpg",
+    "featured": false,
+    "tags": [
+      "Architecture",
+      "Bachelor",
+      "Germany"
+    ]
+  },
+  {
+    "id": 142,
+    "title": "University of Melbourne International PhD Scholarship 2027",
+    "university": "University of Melbourne",
+    "country": "Australia",
+    "degree": "PhD",
+    "field": "Law",
+    "funding": "Partially Funded",
+    "deadline": "2027-11-08",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Law.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.unimelb.edu.au",
+    "image": "/images/scholarships/142.jpg",
+    "featured": false,
+    "tags": [
+      "Law",
+      "PhD",
+      "Australia"
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Middle East Technical University International Master Scholarship 2028",
+    "university": "Middle East Technical University",
+    "country": "Turkey",
+    "degree": "Master",
+    "field": "Law",
+    "funding": "Fully Funded",
+    "deadline": "2027-12-09",
+    "language": "English",
+    "duration": "2 Years",
+    "description": "Scholarship opportunity for international students pursuing Law.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.metu.edu.tr",
+    "image": "/images/scholarships/143.jpg",
+    "featured": false,
+    "tags": [
+      "Law",
+      "Master",
+      "Turkey"
+    ]
+  },
+  {
+    "id": 144,
+    "title": "University of Oxford International Bachelor Scholarship 2027",
+    "university": "University of Oxford",
+    "country": "United Kingdom",
+    "degree": "Bachelor",
+    "field": "Data Science",
+    "funding": "Fully Funded",
+    "deadline": "2027-01-10",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Data Science.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.ox.ac.uk",
+    "image": "/images/scholarships/144.jpg",
+    "featured": false,
+    "tags": [
+      "Data Science",
+      "Bachelor",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 145,
+    "title": "University of Melbourne International Bachelor Scholarship 2028",
+    "university": "University of Melbourne",
+    "country": "Australia",
+    "degree": "Bachelor",
+    "field": "Economics",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-02-11",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Economics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.unimelb.edu.au",
+    "image": "/images/scholarships/145.jpg",
+    "featured": false,
+    "tags": [
+      "Economics",
+      "Bachelor",
+      "Australia"
+    ]
+  },
+  {
+    "id": 146,
+    "title": "KAIST International Bachelor Scholarship 2027",
+    "university": "KAIST",
+    "country": "South Korea",
+    "degree": "Bachelor",
+    "field": "Law",
+    "funding": "Fully Funded",
+    "deadline": "2027-03-12",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Law.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.kaist.ac.kr/en",
+    "image": "/images/scholarships/146.jpg",
+    "featured": false,
+    "tags": [
+      "Law",
+      "Bachelor",
+      "South Korea"
+    ]
+  },
+  {
+    "id": 147,
+    "title": "University of Oslo International PhD Scholarship 2028",
+    "university": "University of Oslo",
+    "country": "Norway",
+    "degree": "PhD",
+    "field": "Physics",
+    "funding": "Partially Funded",
+    "deadline": "2027-04-13",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Physics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.uio.no/english",
+    "image": "/images/scholarships/147.jpg",
+    "featured": false,
+    "tags": [
+      "Physics",
+      "PhD",
+      "Norway"
+    ]
+  },
+  {
+    "id": 148,
+    "title": "University of Tokyo International PhD Scholarship 2027",
+    "university": "University of Tokyo",
+    "country": "Japan",
+    "degree": "PhD",
+    "field": "Electrical Engineering",
+    "funding": "Tuition Waiver",
+    "deadline": "2027-05-14",
+    "language": "English",
+    "duration": "3-4 Years",
+    "description": "Scholarship opportunity for international students pursuing Electrical Engineering.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.u-tokyo.ac.jp/en",
+    "image": "/images/scholarships/148.jpg",
+    "featured": false,
+    "tags": [
+      "Electrical Engineering",
+      "PhD",
+      "Japan"
+    ]
+  },
+  {
+    "id": 149,
+    "title": "University of Cambridge International Bachelor Scholarship 2028",
+    "university": "University of Cambridge",
+    "country": "United Kingdom",
+    "degree": "Bachelor",
+    "field": "Physics",
+    "funding": "Fully Funded",
+    "deadline": "2027-06-15",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Physics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.cam.ac.uk",
+    "image": "/images/scholarships/149.jpg",
+    "featured": false,
+    "tags": [
+      "Physics",
+      "Bachelor",
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Lund University International Bachelor Scholarship 2027",
+    "university": "Lund University",
+    "country": "Sweden",
+    "degree": "Bachelor",
+    "field": "Physics",
+    "funding": "Partially Funded",
+    "deadline": "2027-07-16",
+    "language": "English",
+    "duration": "4 Years",
+    "description": "Scholarship opportunity for international students pursuing Physics.",
+    "requirements": [
+      "Academic transcripts",
+      "CV / Resume",
+      "Motivation Letter",
+      "English proficiency"
+    ],
+    "benefits": [
+      "Tuition support",
+      "Monthly stipend",
+      "Health insurance"
+    ],
+    "applicationUrl": "https://www.lunduniversity.lu.se",
+    "image": "/images/scholarships/150.jpg",
+    "featured": false,
+    "tags": [
+      "Physics",
+      "Bachelor",
+      "Sweden"
+    ]
+  }
+]
