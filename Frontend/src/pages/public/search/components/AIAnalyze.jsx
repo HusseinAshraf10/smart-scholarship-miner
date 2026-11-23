@@ -408,11 +408,21 @@ function AIAnalyze() {
                   </div>
 
                   {/* Sync to Google Sheets & Telegram Button */}
-                  <div>
+                  <div className="flex flex-wrap items-center gap-2">
                     {syncStatus[idx] === "synced" ? (
-                      <span className="inline-flex items-center gap-1.5 rounded-xl border border-green-300 bg-green-50 px-4 py-2 text-xs font-bold text-green-700">
-                        <BookmarkCheck size={14} /> Synced to Sheet & Telegram
-                      </span>
+                      <div className="flex items-center gap-2">
+                        <span className="inline-flex items-center gap-1.5 rounded-xl border border-green-300 bg-green-50 px-4 py-2 text-xs font-bold text-green-700">
+                          <BookmarkCheck size={14} /> Synced to Sheet & Telegram
+                        </span>
+                        <a
+                          href="https://docs.google.com/spreadsheets/d/1idX-_FPKlcc1EXQiDIToI6wos82c4P6V-656aJrApV4/edit"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1 rounded-xl border border-blue-400 bg-blue-50 px-3 py-2 text-xs font-semibold text-blue-700 transition hover:bg-blue-600 hover:text-white"
+                        >
+                          <ExternalLink size={13} /> Open Google Sheet
+                        </a>
+                      </div>
                     ) : (
                       <button
                         onClick={() => handleSyncToSheets(res, idx)}

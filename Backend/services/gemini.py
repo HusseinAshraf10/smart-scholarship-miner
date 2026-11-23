@@ -36,7 +36,7 @@ class GeminiService:
 
 
     def analyze_scholarship_text(self, webpage_content: str) -> dict:
-        webpage_content = webpage_content[:5000]
+        webpage_content = webpage_content[:10000]
         system_prompt = """You are an expert academic automation system evaluating university scholarship web pages.
 Your sole task is to extract structural metrics about this scholarship for the following candidate:
 
@@ -55,6 +55,8 @@ Your sole task is to extract structural metrics about this scholarship for the f
    (P1) High Priority: Good/medium university, fully funded (✅) or stackable to full, no application fee, 66%/ grade is accepted, and competition level is low/medium.
    (P2) Medium Priority: Good/medium university, fully funded or partial funding (⚠️), medium/high competition, or requirements are a slightly tight fit.
    (P3) Low Priority: Partial funding, high competition (e.g., Russell Group), expensive application fees, or requires a 1st class degree.
+4. SCHOLARSHIP / PROGRAM NAME: You MUST ALWAYS populate "scholarship_name". If a specific named scholarship is discussed, use its name. If the page is primarily an academic program course page (e.g. conversion MSc), populate "scholarship_name" with the Program Degree title (e.g., "MSc Computer Science (Conversion) - International Scholarships"). NEVER leave "scholarship_name" as an empty string.
+5. DATES & LINKS: Always extract or estimate relevant intake/application opening/closing cycles (e.g. "~Sep/Oct 2026", "Rolling") and official portal/apply URLs.
 
 Respond with ONLY valid JSON matching this schema:
 {
