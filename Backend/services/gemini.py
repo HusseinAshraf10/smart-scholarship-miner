@@ -82,8 +82,19 @@ Respond with ONLY valid JSON matching this schema:
                 "contents": [{"parts": [{"text": f"{system_prompt}\n\n{user_message}"}]}]
             }
 
-            response = requests.post(self.gemini_url, json=payload, headers=self.headers, timeout= 120)
-            response.raise_for_status()
+            # If the model is busy switch to fallback model
+            try:
+                response = requests.post(self.gemini_url, json=payload, headers=self.headers, timeout=120)
+                response.raise_for_status()
+            except requests.exceptions.HTTPError as err:
+                if response.status_code in [503, 429]:
+                    print(f"[GeminiService] {self.gemini_model} is busy (503), switching instantly to fallback model...")
+                    fallback_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key={GEMINI_API_KEY}"
+                    response = requests.post(fallback_url, json=payload, headers=self.headers, timeout=120)
+                    response.raise_for_status()
+                else:
+                    raise err
+
             content = response.json()["candidates"][0]["content"]["parts"][0]["text"]
         else:
             
@@ -102,12 +113,19 @@ Respond with ONLY valid JSON matching this schema:
             raw = response.json()
             content = raw["message"]["content"]
 
-        cleaned = content.strip()
-        if cleaned.startswith("```"):
-            cleaned = cleaned.split("\n", 1)[-1]
-            cleaned = cleaned.rsplit("```", 1)[0]
+        content = content.strip()
+        import re
+        match = re.search(r"\{.*\}", content, re.DOTALL)
+        json_str = match.group(0) if match else content
 
-        return json.loads(cleaned.strip())
+        try:
+            return json.loads(json_str)
+        except Exception:
+            # Fix single quotes and trailing commas if model returned imperfect JSON
+            fixed = re.sub(r"'([^']*)':", r'"\1":', json_str)
+            fixed = re.sub(r":\s*'([^']*)'", r': "\1"', fixed)
+            fixed = re.sub(r",\s*([\}\]])", r"\1", fixed)
+            return json.loads(fixed)
     
     def sanitize_extracted_data(self, data: dict) -> dict:
         sanitized = {}
