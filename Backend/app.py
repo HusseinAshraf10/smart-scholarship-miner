@@ -3,6 +3,8 @@ from flask import Flask, request, jsonify
 from services.gemini import GeminiService
 from services.search import SearchService
 from flask_cors import CORS
+from services.sheets import SheetsService
+from services.telegram import TelegramNotifierService
 
 
 app = Flask(__name__)
@@ -10,6 +12,9 @@ CORS(app)
 
 scholarship_engine = GeminiService()
 search_engin = SearchService()
+sheet_service = SheetsService()
+telegram_service = TelegramNotifierService()
+
 
 
 @app.route("/", methods= ["GET"])
@@ -90,6 +95,36 @@ def analyze_url():
         print(f"[Analyze URL Error]: {type(e).__name__}: {e}")
         return jsonify({"error": f"AI extraction error: {str(e)}"}), 502
 
+
+@app.route("/sync-scholarship", methods= ["POST"])
+def sync_scholarship():
+    data = request.get_json()
+    if not data:
+        return jsonify({"error":"No data provided"}), 400
+
+    try:
+        row_matrix = sheet_service.prepare_row_matrix(data)
+
+        sheet_service.sheet.append_row(row_matrix)
+
+        alert_msg = (
+            f"🎓 *Scholarship Saved!*\n\n"
+            f"🏛 *University:* {data.get('university', 'N/A')}\n"
+            f"📜 *Program:* {data.get('scholarship_name', 'N/A')}\n"
+            f"💰 *Funding:* {data.get('funding_type', 'N/A')}\n"
+            f"🎯 *Priority:* {data.get('priority', 'N/A')}"
+        )
+
+        telegram_sent = telegram_service.send_notification(alert_msg)
+
+        return jsonify({
+            "status":"success",
+            "message":"Saved to Google Sheet",
+            "telegram_sent":telegram_sent,
+        }), 200
+    except Exception as ec:
+        print(f"[Sync Error]: {ec}")
+        return jsonify({"error": f"Faild to sync scholarship: {str(ec)}"}), 500
 
 if __name__ == "__main__":
     app.run(debug=True,host="0.0.0.0", port=5000)

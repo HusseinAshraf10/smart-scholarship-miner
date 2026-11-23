@@ -14,6 +14,8 @@ import {
   HelpCircle,
   XCircle,
   Sparkles,
+  BookmarkCheck,
+  Save,
 } from "lucide-react";
 
 function AIAnalyze() {
@@ -22,6 +24,28 @@ function AIAnalyze() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [results, setResults] = useState(null);
+  const [syncStatus, setSyncStatus] = useState({}); // { [idx]: 'idle' | 'syncing' | 'synced' | 'error' }
+
+  const handleSyncToSheets = async (resItem, index) => {
+    setSyncStatus((prev) => ({ ...prev, [index]: "syncing" }));
+    try {
+      const response = await fetch("/api/sync-scholarship", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(resItem),
+      });
+      const data = await response.json();
+      if (response.ok) {
+        setSyncStatus((prev) => ({ ...prev, [index]: "synced" }));
+      } else {
+        alert(data.error || "Failed to sync to Google Sheets");
+        setSyncStatus((prev) => ({ ...prev, [index]: "error" }));
+      }
+    } catch (err) {
+      alert("Network error while syncing: " + err.message);
+      setSyncStatus((prev) => ({ ...prev, [index]: "error" }));
+    }
+  };
 
   const handleAnalyze = async () => {
     const val = inputVal.trim();
@@ -339,47 +363,74 @@ function AIAnalyze() {
                 )}
 
                 {/* Footer Links */}
-                <div className="mt-5 flex flex-wrap items-center gap-4 border-t border-gray-100 pt-4">
-                  {res.application_link && (
-                    <a
-                      href={
-                        res.application_link.startsWith("http")
-                          ? res.application_link
-                          : `https://${res.application_link}`
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 rounded-xl bg-blue-600 px-4 py-2 text-xs font-semibold text-white transition hover:bg-blue-700"
-                    >
-                      <ExternalLink size={14} /> Apply via Official Portal
-                    </a>
-                  )}
+                <div className="mt-5 flex flex-wrap items-center justify-between gap-4 border-t border-gray-100 pt-4">
+                  <div className="flex flex-wrap items-center gap-3">
+                    {res.application_link && (
+                      <a
+                        href={
+                          res.application_link.startsWith("http")
+                            ? res.application_link
+                            : `https://${res.application_link}`
+                        }
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 rounded-xl bg-blue-600 px-4 py-2 text-xs font-semibold text-white transition hover:bg-blue-700"
+                      >
+                        <ExternalLink size={14} /> Apply via Official Portal
+                      </a>
+                    )}
 
-                  {res.official_portal && (
-                    <a
-                      href={
-                        res.official_portal.startsWith("http")
-                          ? res.official_portal
-                          : `https://${res.official_portal}`
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 rounded-xl border border-gray-300 bg-white px-4 py-2 text-xs font-semibold text-gray-700 transition hover:border-blue-600 hover:text-blue-600"
-                    >
-                      <ExternalLink size={14} /> University Website
-                    </a>
-                  )}
+                    {res.official_portal && (
+                      <a
+                        href={
+                          res.official_portal.startsWith("http")
+                            ? res.official_portal
+                            : `https://${res.official_portal}`
+                        }
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 rounded-xl border border-gray-300 bg-white px-4 py-2 text-xs font-semibold text-gray-700 transition hover:border-blue-600 hover:text-blue-600"
+                      >
+                        <ExternalLink size={14} /> University Website
+                      </a>
+                    )}
 
-                  {res.source_url && (
-                    <a
-                      href={res.source_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-xs font-medium text-gray-500 hover:text-gray-700"
-                    >
-                      <Link2 size={13} /> Scraped Source Link
-                    </a>
-                  )}
+                    {res.source_url && (
+                      <a
+                        href={res.source_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 text-xs font-medium text-gray-500 hover:text-gray-700"
+                      >
+                        <Link2 size={13} /> Scraped Source Link
+                      </a>
+                    )}
+                  </div>
+
+                  {/* Sync to Google Sheets & Telegram Button */}
+                  <div>
+                    {syncStatus[idx] === "synced" ? (
+                      <span className="inline-flex items-center gap-1.5 rounded-xl border border-green-300 bg-green-50 px-4 py-2 text-xs font-bold text-green-700">
+                        <BookmarkCheck size={14} /> Synced to Sheet & Telegram
+                      </span>
+                    ) : (
+                      <button
+                        onClick={() => handleSyncToSheets(res, idx)}
+                        disabled={syncStatus[idx] === "syncing"}
+                        className="inline-flex items-center gap-1.5 rounded-xl border border-emerald-500 bg-emerald-50 px-4 py-2 text-xs font-bold text-emerald-700 shadow-sm transition hover:bg-emerald-600 hover:text-white disabled:cursor-not-allowed disabled:opacity-50"
+                      >
+                        {syncStatus[idx] === "syncing" ? (
+                          <>
+                            <Loader2 size={14} className="animate-spin" /> Syncing...
+                          </>
+                        ) : (
+                          <>
+                            <Save size={14} /> Save to Google Sheet
+                          </>
+                        )}
+                      </button>
+                    )}
+                  </div>
                 </div>
               </div>
             ))}

@@ -82,20 +82,39 @@ Respond with ONLY valid JSON matching this schema:
                 "contents": [{"parts": [{"text": f"{system_prompt}\n\n{user_message}"}]}]
             }
 
-            # If the model is busy switch to fallback model
-            try:
-                response = requests.post(self.gemini_url, json=payload, headers=self.headers, timeout=120)
-                response.raise_for_status()
-            except requests.exceptions.HTTPError as err:
-                if response.status_code in [503, 429]:
-                    print(f"[GeminiService] {self.gemini_model} is busy (503), switching instantly to fallback model...")
-                    fallback_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key={GEMINI_API_KEY}"
-                    response = requests.post(fallback_url, json=payload, headers=self.headers, timeout=120)
-                    response.raise_for_status()
-                else:
-                    raise err
+            # Dynamic resilient retry loop with exponential backoff & model fallbacks
+            candidate_models = [self.gemini_model, "gemini-2.5-flash", "gemini-flash-lite-latest"]
+            # Deduplicate while preserving order
+            candidate_models = list(dict.fromkeys(candidate_models))
+            
+            response = None
+            last_err = None
+            import time
 
-            content = response.json()["candidates"][0]["content"]["parts"][0]["text"]
+            for model_name in candidate_models:
+                target_url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
+                for attempt in range(2):
+                    try:
+                        response = requests.post(target_url, json=payload, headers=self.headers, timeout=60)
+                        if response.status_code == 200:
+                            break
+                        elif response.status_code in [503, 429]:
+                            time.sleep(1)
+                            continue
+                        else:
+                            response.raise_for_status()
+                    except Exception as err:
+                        last_err = err
+                        time.sleep(1)
+                        continue
+                if response and response.status_code == 200:
+                    break
+
+            if not response or response.status_code != 200:
+                raise last_err or RuntimeError("All Gemini candidate models returned 503/429 busy.")
+
+            parts = response.json()["candidates"][0]["content"]["parts"]
+            content = "".join(part.get("text", "") for part in parts)
         else:
             
             payload = {
