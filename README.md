@@ -17,19 +17,39 @@ An enterprise-grade, AI-driven automation pipeline that mines, scrapes, evaluate
 
 ---
 
-## 🏗️ System Architecture Flowchart
+## 🏗️ System Architecture & Workflow
 
-```mermaid
-flowchart TD
-    A["User Input (Natural Language)"] --> B["React + Vite Frontend (Port 5173)"]
-    B -->|Vite Reverse Proxy /api| C["Flask REST API (Port 5000)"]
-    C --> D["SearchService: Query Optimizer (LLM)"]
-    D --> E["Academic Web Scraper (DDGS & Requests)"]
-    E -->|Raw HTML Payload| F["GeminiService: Evaluation Engine"]
-    F -->|Regex Sanitizer & Auto-repair| G["Pydantic Structured Schema"]
-    G --> H["Prioritized Matching (P1 / P2 / P3)"]
-    H -->|JSON Response| B
-    B --> I["Interactive Scholarship Card UI"]
+```text
+┌─────────────────────────────────────────────────────────────┐
+│               1. React + Vite Frontend (UI)                 │
+│         User enters Natural Language or Scholarship URL     │
+└──────────────────────────────┬──────────────────────────────┘
+                               │  Vite Reverse Proxy (/api)
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│                 2. Flask REST Backend API                   │
+│        Handles routing, request parsing & CORS control       │
+└──────────────┬───────────────────────────────▲──────────────┘
+               │                               │
+               ▼                               │
+┌──────────────────────────────┐               │
+│ 3. SearchService (Optimizer) │               │
+│    LLM Query Refinement      │               │
+└──────────────┬───────────────┘               │
+               │ Focused Query                 │
+               ▼                               │
+┌──────────────────────────────┐               │
+│  4. Academic Web Scraper     │               │
+│  DDGS + Requests (User-Agent)│               │
+└──────────────┬───────────────┘               │
+               │ Raw HTML Page                 │ 5. Clean JSON
+               ▼                               │ (P1/P2/P3 Card)
+┌──────────────────────────────────────────────┴──────────────┐
+│                  5. Gemini AI Evaluation                    │
+│    • Heuristic Evaluation vs Candidate Specification        │
+│    • Robust Regex Extraction & Malformed JSON Auto-repair   │
+│    • Pydantic Schema Validation & Priority Ranking (P1/P2/P3)│
+└─────────────────────────────────────────────────────────────┘
 ```
 
 ---
